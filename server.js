@@ -5,17 +5,10 @@ const path = require('path');
 
 const app = express();
 
-// Allow static frontend files
 app.use(express.static('public'));
-
-// Allow JSON bodies (good practice)
 app.use(express.json());
 
-// Optional: CORS support in case frontend is separate
-const cors = require('cors');
-app.use(cors());
-
-// ===== GET CURRENT FUNNEL DATA =====
+// GET funnel data
 app.get('/data', (req, res) => {
     const filePath = path.join(__dirname, 'data', 'funnels.json');
     try {
@@ -27,7 +20,7 @@ app.get('/data', (req, res) => {
     }
 });
 
-// ===== REFRESH DATA BUTTON =====
+// Refresh funnel data
 app.post('/refresh', (req, res) => {
     console.log("Running funnel.js to refresh data...");
 
@@ -50,6 +43,6 @@ app.post('/refresh', (req, res) => {
     });
 });
 
-// ===== DYNAMIC PORT FOR DEPLOYMENT =====
+// Dynamic port for Render
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
