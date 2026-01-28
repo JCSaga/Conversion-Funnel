@@ -144,25 +144,25 @@
   },
   "2026-01": {
     "South Africa": {
-      "cohortSize": 75,
+      "cohortSize": 76,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 6,
           "conversion_prev": 1,
-          "conversion_cohort": 0.08,
+          "conversion_cohort": 0.07894736842105263,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 6,
           "conversion_prev": 0.4,
-          "conversion_cohort": 0.08,
+          "conversion_cohort": 0.07894736842105263,
           "drop": 9
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 75,
+          "count": 76,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -170,22 +170,22 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 52,
-          "conversion_prev": 0.6933333333333334,
-          "conversion_cohort": 0.6933333333333334,
-          "drop": 23
+          "conversion_prev": 0.6842105263157895,
+          "conversion_cohort": 0.6842105263157895,
+          "drop": 24
         },
         "1087110454": {
           "name": "Interview",
           "count": 1,
           "conversion_prev": 0.019230769230769232,
-          "conversion_cohort": 0.013333333333333334,
+          "conversion_cohort": 0.013157894736842105,
           "drop": 51
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 15,
           "conversion_prev": 15,
-          "conversion_cohort": 0.2,
+          "conversion_cohort": 0.19736842105263158,
           "drop": -14
         }
       }
