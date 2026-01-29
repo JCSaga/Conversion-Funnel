@@ -235,20 +235,31 @@
       box.innerHTML = `<div class="country-title">${country}</div>`;
 
       rows.forEach((r, i) => {
-        const prev = i === 0 ? "100% prev" : `prev ${pct(r.conversion_prev)}`;
-        const coh = `cohort ${pct(r.conversion_cohort)}`;
+        // const prev = i === 0 ? "100% prev" : `prev ${pct(r.conversion_prev)}`;
+        // const coh = `cohort ${pct(r.conversion_cohort)}`;
         const drop = i === 0 ? "" : `| drop ${r.drop}`;
 
         box.innerHTML += `
-        <div class="row">
-          <div class="stage">${r.name}</div>
-          <div class="bar-wrapper">
-            <div class="bar" style="--w:${widths[i]}; --c:${colors[i]}; --shape:${shapes[i]};">
-              ${r.count}
-            </div>
-          </div>
-          <div class="metrics">${i === 0 ? coh : `${prev} | ${coh}${drop}`}</div>
-        </div>`;
+  <div class="row">
+    <div class="stage">${r.name}</div>
+    <div class="bar-wrapper">
+      <div class="bar" style="--w:${widths[i]}; --c:${colors[i]}; --shape:${shapes[i]};">
+        ${r.count}
+      </div>
+    </div>
+    <div class="metrics">${i === 0 ? "" : `drop ${r.drop}`}</div>
+  </div>`;
+
+        // box.innerHTML += `
+        // <div class="row">
+        //   <div class="stage">${r.name}</div>
+        //   <div class="bar-wrapper">
+        //     <div class="bar" style="--w:${widths[i]}; --c:${colors[i]}; --shape:${shapes[i]};">
+        //       ${r.count}
+        //     </div>
+        //   </div>
+        //   <div class="metrics">${i === 0 ? coh : `${prev} | ${coh}${drop}`}</div>
+        // </div>`;
       });
 
       grid.appendChild(box);
