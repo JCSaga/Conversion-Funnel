@@ -191,7 +191,7 @@
       }
     },
     "United Kingdom + Other": {
-      "cohortSize": 50,
+      "cohortSize": 52,
       "stages": {
         "36053576": {
           "name": "Member",
@@ -209,30 +209,30 @@
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 50,
+          "count": 52,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 17,
-          "conversion_prev": 0.34,
-          "conversion_cohort": 0.34,
-          "drop": 33
+          "count": 28,
+          "conversion_prev": 0.5384615384615384,
+          "conversion_cohort": 0.5384615384615384,
+          "drop": 24
         },
         "1087110454": {
           "name": "Interview",
           "count": 1,
-          "conversion_prev": 0.058823529411764705,
-          "conversion_cohort": 0.02,
-          "drop": 16
+          "conversion_prev": 0.03571428571428571,
+          "conversion_cohort": 0.019230769230769232,
+          "drop": 27
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 3,
           "conversion_prev": 3,
-          "conversion_cohort": 0.06,
+          "conversion_cohort": 0.057692307692307696,
           "drop": -2
         }
       }

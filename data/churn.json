@@ -1,1273 +1,3778 @@
 {
   "United Kingdom + Other": [
     {
-      "label": "2022-W46",
-      "onboarded": 0,
-      "offboarded": 1
-    },
-    {
-      "label": "2023-W2",
-      "onboarded": 9,
+      "label": "2020-11-01",
+      "onboarded": 17,
       "offboarded": 0
     },
     {
-      "label": "2023-W4",
-      "onboarded": 1,
+      "label": "2021-03-01",
+      "onboarded": 21,
       "offboarded": 0
     },
     {
-      "label": "2023-W6",
-      "onboarded": 2,
+      "label": "2021-09-01",
+      "onboarded": 29,
       "offboarded": 0
     },
     {
-      "label": "2023-W8",
-      "onboarded": 1,
+      "label": "2022-03-01",
+      "onboarded": 36,
       "offboarded": 0
     },
     {
-      "label": "2023-W9",
-      "onboarded": 2,
+      "label": "2022-09-01",
+      "onboarded": 32,
       "offboarded": 0
     },
     {
-      "label": "2023-W10",
-      "onboarded": 2,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W12",
-      "onboarded": 3,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W14",
-      "onboarded": 3,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W15",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W16",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W18",
-      "onboarded": 2,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W19",
-      "onboarded": 1,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W20",
-      "onboarded": 1,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W22",
-      "onboarded": 2,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W23",
-      "onboarded": 5,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W24",
-      "onboarded": 1,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W25",
-      "onboarded": 3,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W26",
-      "onboarded": 1,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W27",
-      "onboarded": 3,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W28",
-      "onboarded": 1,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W29",
-      "onboarded": 9,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W30",
-      "onboarded": 3,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W32",
-      "onboarded": 7,
-      "offboarded": 2
-    },
-    {
-      "label": "2023-W33",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W34",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W35",
-      "onboarded": 7,
-      "offboarded": 1
-    },
-    {
-      "label": "2023-W36",
+      "label": "2023-01-09",
       "onboarded": 6,
       "offboarded": 0
     },
     {
-      "label": "2023-W37",
-      "onboarded": 9,
+      "label": "2023-01-10",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2023-W38",
-      "onboarded": 8,
+      "label": "2023-01-11",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2023-W39",
-      "onboarded": 10,
+      "label": "2023-01-12",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2023-W40",
+      "label": "2023-01-25",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-02-07",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2023-W41",
-      "onboarded": 138,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W42",
-      "onboarded": 15,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W43",
-      "onboarded": 11,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W44",
-      "onboarded": 5,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W45",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W46",
-      "onboarded": 5,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W47",
-      "onboarded": 7,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W48",
-      "onboarded": 13,
-      "offboarded": 7
-    },
-    {
-      "label": "2023-W49",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W50",
-      "onboarded": 10,
-      "offboarded": 2
-    },
-    {
-      "label": "2023-W51",
-      "onboarded": 14,
-      "offboarded": 0
-    },
-    {
-      "label": "2023-W52",
+      "label": "2023-02-11",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W1",
-      "onboarded": 5,
+      "label": "2023-02-23",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W2",
-      "onboarded": 8,
-      "offboarded": 4
+      "label": "2023-02-28",
+      "onboarded": 1,
+      "offboarded": 0
     },
     {
-      "label": "2024-W3",
+      "label": "2023-03-03",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-03-08",
       "onboarded": 2,
-      "offboarded": 2
+      "offboarded": 0
     },
     {
-      "label": "2024-W4",
-      "onboarded": 5,
-      "offboarded": 3
+      "label": "2023-03-21",
+      "onboarded": 2,
+      "offboarded": 0
     },
     {
-      "label": "2024-W5",
+      "label": "2023-03-24",
       "onboarded": 1,
-      "offboarded": 4
+      "offboarded": 0
     },
     {
-      "label": "2024-W6",
+      "label": "2023-04-03",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-04-05",
       "onboarded": 1,
-      "offboarded": 2
+      "offboarded": 0
     },
     {
-      "label": "2024-W7",
+      "label": "2023-04-11",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-04-13",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-04-14",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-04-18",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-04-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-04-23",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-05-03",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-05-04",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-05-12",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-05-17",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-05-29",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-06-02",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-06-06",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-06-10",
       "onboarded": 3,
       "offboarded": 0
     },
     {
-      "label": "2024-W9",
-      "onboarded": 2,
-      "offboarded": 7
+      "label": "2023-06-13",
+      "onboarded": 1,
+      "offboarded": 0
     },
     {
-      "label": "2024-W10",
+      "label": "2023-06-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-06-23",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-06-24",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-06-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-07-07",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2024-W11",
-      "onboarded": 20,
-      "offboarded": 2
+      "label": "2023-07-08",
+      "onboarded": 1,
+      "offboarded": 0
     },
     {
-      "label": "2024-W12",
-      "onboarded": 11,
+      "label": "2023-07-15",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-07-18",
+      "onboarded": 6,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-07-19",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-07-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-07-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-07-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-07-28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-07-29",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-07",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-08",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-09",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-11",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-12",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-15",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-16",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-21",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-23",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-29",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-30",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-08-31",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-06",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-08",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-12",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-13",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-14",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-15",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-16",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-17",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-18",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-20",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-22",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-23",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-27",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-29",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-09-30",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-02",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-03",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-11",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-12",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-13",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-17",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-18",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-19",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-21",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-24",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-25",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-27",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-10-28",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-01",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-02",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-04",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-08",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-11",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-13",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-15",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-18",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-21",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-24",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-25",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-28",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-29",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-11-30",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-01",
+      "onboarded": 3,
+      "offboarded": 7
+    },
+    {
+      "label": "2023-12-02",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-06",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-09",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-13",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-14",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-15",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-16",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-17",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-19",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-21",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-23",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-24",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-12-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-01-05",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-01-06",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-01-07",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-01-09",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-01-10",
+      "onboarded": 3,
+      "offboarded": 4
+    },
+    {
+      "label": "2024-01-11",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-01-12",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-01-16",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-01-17",
+      "onboarded": 0,
       "offboarded": 1
     },
     {
-      "label": "2024-W13",
-      "onboarded": 5,
-      "offboarded": 0
+      "label": "2024-01-19",
+      "onboarded": 0,
+      "offboarded": 1
     },
     {
-      "label": "2024-W14",
+      "label": "2024-01-22",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2024-01-24",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2024-W15",
-      "onboarded": 2,
-      "offboarded": 0
+      "label": "2024-01-25",
+      "onboarded": 1,
+      "offboarded": 1
     },
     {
-      "label": "2024-W16",
-      "onboarded": 7,
-      "offboarded": 0
-    },
-    {
-      "label": "2024-W17",
-      "onboarded": 11,
+      "label": "2024-01-30",
+      "onboarded": 1,
       "offboarded": 3
     },
     {
-      "label": "2024-W18",
-      "onboarded": 13,
+      "label": "2024-01-31",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-02-06",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2024-02-09",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-02-13",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-02-14",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-02-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-02-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-02-27",
+      "onboarded": 1,
       "offboarded": 7
     },
     {
-      "label": "2024-W19",
-      "onboarded": 9,
+      "label": "2024-02-28",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W20",
-      "onboarded": 11,
+      "label": "2024-02-29",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W21",
-      "onboarded": 10,
+      "label": "2024-03-01",
+      "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2024-W22",
-      "onboarded": 7,
+      "label": "2024-03-02",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W23",
+      "label": "2024-03-04",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-06",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-08",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-11",
+      "onboarded": 6,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-12",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-13",
+      "onboarded": 3,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-03-14",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-15",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-03-17",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-18",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-19",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-21",
+      "onboarded": 3,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-03-22",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-24",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-25",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-03-28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-03",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-08",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-09",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-15",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-18",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-19",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-22",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-23",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-24",
+      "onboarded": 1,
+      "offboarded": 3
+    },
+    {
+      "label": "2024-04-25",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-26",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-04-29",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-01",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-02",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-03",
+      "onboarded": 2,
+      "offboarded": 7
+    },
+    {
+      "label": "2024-05-04",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-06",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-07",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-08",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-09",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-10",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-13",
+      "onboarded": 6,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-14",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-15",
       "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-16",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-19",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-20",
+      "onboarded": 6,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-23",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-24",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-25",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-31",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-06-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-06-03",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-06-04",
+      "onboarded": 0,
       "offboarded": 5
     },
     {
-      "label": "2024-W24",
+      "label": "2024-06-05",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-06-06",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-06-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-06-11",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-06-17",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2024-W25",
-      "onboarded": 3,
+      "label": "2024-06-18",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W26",
-      "onboarded": 9,
+      "label": "2024-06-20",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W27",
-      "onboarded": 6,
-      "offboarded": 11
+      "label": "2024-06-24",
+      "onboarded": 1,
+      "offboarded": 0
     },
     {
-      "label": "2024-W28",
+      "label": "2024-06-26",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-06-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-06-28",
       "onboarded": 5,
       "offboarded": 0
     },
     {
-      "label": "2024-W29",
-      "onboarded": 6,
-      "offboarded": 6
-    },
-    {
-      "label": "2024-W30",
-      "onboarded": 9,
-      "offboarded": 0
-    },
-    {
-      "label": "2024-W31",
-      "onboarded": 7,
-      "offboarded": 3
-    },
-    {
-      "label": "2024-W32",
+      "label": "2024-06-30",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W33",
+      "label": "2024-07-01",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-02",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-04",
+      "onboarded": 2,
+      "offboarded": 11
+    },
+    {
+      "label": "2024-07-05",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-08",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-09",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-12",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-15",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-16",
+      "onboarded": 2,
+      "offboarded": 6
+    },
+    {
+      "label": "2024-07-17",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-23",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-24",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-25",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-30",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-31",
+      "onboarded": 4,
+      "offboarded": 3
+    },
+    {
+      "label": "2024-08-08",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-08-15",
       "onboarded": 0,
       "offboarded": 1
     },
     {
-      "label": "2024-W34",
+      "label": "2024-08-23",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W35",
-      "onboarded": 0,
-      "offboarded": 4
-    },
-    {
-      "label": "2024-W36",
+      "label": "2024-08-28",
       "onboarded": 0,
       "offboarded": 3
     },
     {
-      "label": "2024-W37",
+      "label": "2024-08-30",
       "onboarded": 0,
-      "offboarded": 6
+      "offboarded": 1
     },
     {
-      "label": "2024-W38",
+      "label": "2024-09-02",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-09-03",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2024-09-09",
+      "onboarded": 0,
+      "offboarded": 4
+    },
+    {
+      "label": "2024-09-12",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2024-09-16",
+      "onboarded": 0,
+      "offboarded": 3
+    },
+    {
+      "label": "2024-09-19",
+      "onboarded": 0,
+      "offboarded": 5
+    },
+    {
+      "label": "2024-10-01",
       "onboarded": 0,
       "offboarded": 8
     },
     {
-      "label": "2024-W40",
-      "onboarded": 2,
-      "offboarded": 12
+      "label": "2024-10-03",
+      "onboarded": 0,
+      "offboarded": 4
     },
     {
-      "label": "2024-W41",
-      "onboarded": 59,
+      "label": "2024-10-08",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-10-09",
+      "onboarded": 52,
       "offboarded": 18
     },
     {
-      "label": "2024-W42",
+      "label": "2024-10-16",
       "onboarded": 1,
       "offboarded": 7
     },
     {
-      "label": "2024-W43",
+      "label": "2024-10-31",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-11-04",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-11-05",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W44",
-      "onboarded": 10,
+      "label": "2024-11-06",
+      "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2024-W45",
-      "onboarded": 15,
-      "offboarded": 0
-    },
-    {
-      "label": "2024-W46",
-      "onboarded": 1,
+      "label": "2024-11-11",
+      "onboarded": 0,
       "offboarded": 9
     },
     {
-      "label": "2024-W47",
-      "onboarded": 2,
+      "label": "2024-11-12",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-11-14",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-11-18",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-11-19",
+      "onboarded": 0,
       "offboarded": 12
     },
     {
-      "label": "2024-W48",
-      "onboarded": 7,
+      "label": "2024-11-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-11-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-11-25",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-11-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-11-29",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-12-01",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-12-02",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-12-06",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-12-11",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-12-17",
+      "onboarded": 0,
       "offboarded": 2
     },
     {
-      "label": "2024-W49",
+      "label": "2025-01-09",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-01-13",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-14",
+      "onboarded": 0,
+      "offboarded": 6
+    },
+    {
+      "label": "2025-01-15",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-16",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-01-17",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-18",
       "onboarded": 2,
-      "offboarded": 1
-    },
-    {
-      "label": "2024-W50",
-      "onboarded": 0,
-      "offboarded": 1
-    },
-    {
-      "label": "2024-W51",
-      "onboarded": 0,
-      "offboarded": 2
-    },
-    {
-      "label": "2025-W3",
-      "onboarded": 8,
-      "offboarded": 7
-    },
-    {
-      "label": "2025-W4",
-      "onboarded": 6,
       "offboarded": 0
     },
     {
-      "label": "2025-W5",
-      "onboarded": 5,
+      "label": "2025-01-19",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W6",
-      "onboarded": 5,
+      "label": "2025-01-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-22",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-24",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-25",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-31",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-02-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-02-03",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-02-04",
+      "onboarded": 3,
       "offboarded": 33
     },
     {
-      "label": "2025-W7",
+      "label": "2025-02-06",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W8",
-      "onboarded": 2,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W9",
-      "onboarded": 3,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W10",
-      "onboarded": 12,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W11",
-      "onboarded": 9,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W12",
+      "label": "2025-02-13",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2025-W13",
-      "onboarded": 5,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W14",
-      "onboarded": 7,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W15",
-      "onboarded": 4,
-      "offboarded": 41
-    },
-    {
-      "label": "2025-W16",
-      "onboarded": 5,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W17",
+      "label": "2025-02-17",
       "onboarded": 1,
-      "offboarded": 11
-    },
-    {
-      "label": "2025-W18",
-      "onboarded": 7,
-      "offboarded": 3
-    },
-    {
-      "label": "2025-W19",
-      "onboarded": 3,
       "offboarded": 1
     },
     {
-      "label": "2025-W20",
-      "onboarded": 11,
-      "offboarded": 2
-    },
-    {
-      "label": "2025-W21",
-      "onboarded": 6,
-      "offboarded": 33
-    },
-    {
-      "label": "2025-W22",
-      "onboarded": 4,
-      "offboarded": 8
-    },
-    {
-      "label": "2025-W23",
-      "onboarded": 8,
-      "offboarded": 2
-    },
-    {
-      "label": "2025-W24",
-      "onboarded": 3,
-      "offboarded": 3
-    },
-    {
-      "label": "2025-W25",
-      "onboarded": 5,
-      "offboarded": 2
-    },
-    {
-      "label": "2025-W26",
-      "onboarded": 16,
+      "label": "2025-02-19",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W27",
-      "onboarded": 6,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W28",
-      "onboarded": 10,
-      "offboarded": 9
-    },
-    {
-      "label": "2025-W29",
-      "onboarded": 5,
-      "offboarded": 2
-    },
-    {
-      "label": "2025-W30",
-      "onboarded": 5,
-      "offboarded": 3
-    },
-    {
-      "label": "2025-W31",
-      "onboarded": 8,
-      "offboarded": 4
-    },
-    {
-      "label": "2025-W32",
-      "onboarded": 7,
-      "offboarded": 4
-    },
-    {
-      "label": "2025-W33",
-      "onboarded": 4,
-      "offboarded": 3
-    },
-    {
-      "label": "2025-W34",
-      "onboarded": 6,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W35",
-      "onboarded": 3,
-      "offboarded": 3
-    },
-    {
-      "label": "2025-W36",
-      "onboarded": 5,
-      "offboarded": 2
-    },
-    {
-      "label": "2025-W37",
-      "onboarded": 4,
-      "offboarded": 3
-    },
-    {
-      "label": "2025-W38",
-      "onboarded": 4,
-      "offboarded": 4
-    },
-    {
-      "label": "2025-W39",
-      "onboarded": 4,
-      "offboarded": 3
-    },
-    {
-      "label": "2025-W40",
-      "onboarded": 6,
+      "label": "2025-02-24",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W41",
+      "label": "2025-02-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-02-28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-03",
       "onboarded": 2,
-      "offboarded": 10
-    },
-    {
-      "label": "2025-W42",
-      "onboarded": 5,
-      "offboarded": 10
-    },
-    {
-      "label": "2025-W43",
-      "onboarded": 6,
-      "offboarded": 7
-    },
-    {
-      "label": "2025-W44",
-      "onboarded": 7,
       "offboarded": 0
     },
     {
-      "label": "2025-W45",
+      "label": "2025-03-05",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-06",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-07",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-08",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-10",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-11",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-12",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-13",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-14",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-18",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-19",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-24",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-25",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-01",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-02",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-03",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-04",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-06",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-04-08",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-09",
+      "onboarded": 0,
+      "offboarded": 40
+    },
+    {
+      "label": "2025-04-10",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-11",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-04-15",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-16",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-17",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-18",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-23",
       "onboarded": 0,
       "offboarded": 7
     },
     {
-      "label": "2025-W46",
-      "onboarded": 6,
-      "offboarded": 7
-    },
-    {
-      "label": "2025-W47",
-      "onboarded": 3,
-      "offboarded": 3
-    },
-    {
-      "label": "2025-W48",
-      "onboarded": 5,
-      "offboarded": 2
-    },
-    {
-      "label": "2025-W49",
-      "onboarded": 6,
-      "offboarded": 3
-    },
-    {
-      "label": "2025-W50",
-      "onboarded": 2,
-      "offboarded": 5
-    },
-    {
-      "label": "2025-W51",
-      "onboarded": 3,
-      "offboarded": 4
-    },
-    {
-      "label": "2025-W52",
+      "label": "2025-04-24",
       "onboarded": 1,
       "offboarded": 4
     },
     {
-      "label": "2026-W1",
+      "label": "2025-04-28",
+      "onboarded": 4,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-04-30",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-05-01",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-08",
       "onboarded": 2,
-      "offboarded": 9
+      "offboarded": 0
     },
     {
-      "label": "2026-W2",
+      "label": "2025-05-09",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-05-14",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-15",
       "onboarded": 6,
-      "offboarded": 8
+      "offboarded": 2
     },
     {
-      "label": "2026-W3",
-      "onboarded": 5,
+      "label": "2025-05-19",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-20",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-05-21",
+      "onboarded": 0,
+      "offboarded": 29
+    },
+    {
+      "label": "2025-05-23",
+      "onboarded": 4,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-05-27",
+      "onboarded": 2,
       "offboarded": 4
     },
     {
-      "label": "2026-W4",
+      "label": "2025-05-28",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-05-29",
+      "onboarded": 0,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-05-30",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-02",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-03",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-05",
+      "onboarded": 4,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-06-06",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-06-09",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-06-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-11",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-12",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-06-13",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-16",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-17",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-06-18",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-23",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-24",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-25",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-26",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-27",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-30",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-01",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-03",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-07-07",
+      "onboarded": 3,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-07-08",
+      "onboarded": 1,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-07-09",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-10",
+      "onboarded": 2,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-07-11",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-07-14",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-07-15",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-16",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-17",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-07-18",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-21",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-07-22",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-07-23",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-24",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-07-25",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-29",
+      "onboarded": 4,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-07-30",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-07-31",
+      "onboarded": 2,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-08-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-04",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-08-07",
+      "onboarded": 6,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-08-12",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-08-13",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-08-14",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-18",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-19",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-08-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-29",
+      "onboarded": 0,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-08-30",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-31",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-01",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-09-02",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-04",
       "onboarded": 3,
       "offboarded": 1
     },
     {
-      "label": "2026-W5",
+      "label": "2025-09-07",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-08",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-09-10",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-09-11",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-13",
       "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-15",
+      "onboarded": 0,
+      "offboarded": 4
+    },
+    {
+      "label": "2025-09-16",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-17",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-18",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-19",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-24",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-09-25",
+      "onboarded": 1,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-09-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-29",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-03",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-06",
+      "onboarded": 0,
+      "offboarded": 10
+    },
+    {
+      "label": "2025-10-07",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-08",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-14",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-15",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-10-16",
+      "onboarded": 1,
+      "offboarded": 8
+    },
+    {
+      "label": "2025-10-17",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-20",
+      "onboarded": 2,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-10-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-22",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-10-23",
+      "onboarded": 1,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-10-24",
+      "onboarded": 1,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-10-27",
+      "onboarded": 1,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-10-28",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-30",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-10-31",
+      "onboarded": 3,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-02",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-05",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-11-06",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-11-08",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-10",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-13",
+      "onboarded": 3,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-14",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-16",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-19",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-20",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-21",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-22",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-24",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-26",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-27",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-30",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-03",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-04",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-05",
+      "onboarded": 1,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-12-07",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-08",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-09",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-11",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-13",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-15",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-17",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-18",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-12-21",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-12-22",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-27",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2026-01-01",
+      "onboarded": 0,
+      "offboarded": 4
+    },
+    {
+      "label": "2026-01-02",
+      "onboarded": 1,
+      "offboarded": 4
+    },
+    {
+      "label": "2026-01-03",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-05",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-06",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-07",
+      "onboarded": 1,
+      "offboarded": 2
+    },
+    {
+      "label": "2026-01-08",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-09",
+      "onboarded": 0,
+      "offboarded": 3
+    },
+    {
+      "label": "2026-01-10",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-12",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-13",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-14",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-15",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-16",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-17",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-22",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-29",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-30",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-02",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-06",
+      "onboarded": 0,
+      "offboarded": 3
+    },
+    {
+      "label": "2026-02-12",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-13",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-14",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-19",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-23",
+      "onboarded": 0,
       "offboarded": 1
     }
   ],
   "United Arab Emirates": [
     {
-      "label": "2023-W10",
+      "label": "2021-03-01",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2022-03-01",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2022-09-01",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2023-W41",
-      "onboarded": 6,
+      "label": "2023-03-08",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W9",
+      "label": "2024-02-27",
       "onboarded": 0,
       "offboarded": 1
     },
     {
-      "label": "2024-W30",
+      "label": "2024-05-15",
+      "onboarded": 23,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-17",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W41",
-      "onboarded": 41,
+      "label": "2024-05-18",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W42",
+      "label": "2024-05-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-28",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-29",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-30",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-07",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-16",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-07-24",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-10-09",
+      "onboarded": 10,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-10-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-10-16",
       "onboarded": 13,
       "offboarded": 0
     },
     {
-      "label": "2024-W43",
-      "onboarded": 7,
-      "offboarded": 0
-    },
-    {
-      "label": "2024-W44",
-      "onboarded": 2,
-      "offboarded": 0
-    },
-    {
-      "label": "2024-W45",
-      "onboarded": 1,
-      "offboarded": 0
-    },
-    {
-      "label": "2024-W47",
+      "label": "2024-10-23",
       "onboarded": 3,
       "offboarded": 0
     },
     {
-      "label": "2024-W48",
+      "label": "2024-10-31",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2024-W49",
+      "label": "2024-11-05",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W50",
+      "label": "2024-11-21",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2024-W51",
-      "onboarded": 1,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W2",
+      "label": "2024-11-29",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2025-W3",
+      "label": "2024-12-06",
       "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-12-09",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-12-11",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-12-16",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-07",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-08",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-14",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-01-16",
+      "onboarded": 0,
       "offboarded": 4
     },
     {
-      "label": "2025-W4",
+      "label": "2025-01-24",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W5",
-      "onboarded": 7,
+      "label": "2025-01-27",
+      "onboarded": 3,
       "offboarded": 0
     },
     {
-      "label": "2025-W6",
-      "onboarded": 2,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W7",
+      "label": "2025-01-29",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W9",
+      "label": "2025-01-31",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2025-W10",
-      "onboarded": 5,
+      "label": "2025-02-01",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W11",
-      "onboarded": 4,
+      "label": "2025-02-04",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W12",
-      "onboarded": 4,
+      "label": "2025-02-05",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W13",
-      "onboarded": 4,
+      "label": "2025-02-11",
+      "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W14",
-      "onboarded": 7,
+      "label": "2025-02-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-02-28",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-05",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-07",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-08",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-11",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-12",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-17",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-24",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-25",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-27",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-03-31",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-02",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-03",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-04",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-06",
+      "onboarded": 0,
       "offboarded": 6
     },
     {
-      "label": "2025-W15",
-      "onboarded": 4,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W16",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W17",
-      "onboarded": 6,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W18",
-      "onboarded": 2,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W19",
+      "label": "2025-04-08",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W20",
-      "onboarded": 4,
+      "label": "2025-04-09",
+      "onboarded": 1,
       "offboarded": 1
     },
     {
-      "label": "2025-W21",
+      "label": "2025-04-10",
       "onboarded": 2,
-      "offboarded": 4
+      "offboarded": 0
     },
     {
-      "label": "2025-W22",
-      "onboarded": 10,
+      "label": "2025-04-15",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-16",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-22",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-23",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-24",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-04-25",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-04-30",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-06",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-09",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-13",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-05-18",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-19",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-05-20",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-05-21",
+      "onboarded": 1,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-05-23",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-26",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-27",
+      "onboarded": 3,
       "offboarded": 3
     },
     {
-      "label": "2025-W23",
-      "onboarded": 1,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W24",
-      "onboarded": 2,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W25",
-      "onboarded": 7,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W26",
-      "onboarded": 2,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W27",
-      "onboarded": 2,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W28",
+      "label": "2025-05-29",
       "onboarded": 3,
       "offboarded": 0
     },
     {
-      "label": "2025-W29",
-      "onboarded": 3,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W30",
+      "label": "2025-05-30",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W31",
+      "label": "2025-06-03",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-05",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-06-09",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-11",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-16",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-19",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-20",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2025-W32",
+      "label": "2025-06-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-30",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-02",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-09",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-10",
       "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-11",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-14",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-15",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-17",
+      "onboarded": 0,
       "offboarded": 1
     },
     {
-      "label": "2025-W33",
-      "onboarded": 4,
+      "label": "2025-07-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-29",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-31",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-04",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-08-07",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-13",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-14",
+      "onboarded": 1,
       "offboarded": 3
     },
     {
-      "label": "2025-W34",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W35",
-      "onboarded": 2,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W36",
-      "onboarded": 7,
-      "offboarded": 3
-    },
-    {
-      "label": "2025-W37",
-      "onboarded": 3,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W38",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W39",
+      "label": "2025-08-15",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2025-W40",
-      "onboarded": 5,
+      "label": "2025-08-18",
+      "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2025-W41",
+      "label": "2025-08-20",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W42",
-      "onboarded": 5,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W43",
+      "label": "2025-08-21",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W44",
-      "onboarded": 2,
+      "label": "2025-08-27",
+      "onboarded": 0,
       "offboarded": 1
     },
     {
-      "label": "2025-W45",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W46",
-      "onboarded": 7,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W47",
-      "onboarded": 6,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W48",
-      "onboarded": 2,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W49",
-      "onboarded": 3,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W50",
-      "onboarded": 3,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W51",
+      "label": "2025-08-28",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W52",
+      "label": "2025-08-30",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-01",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-02",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-03",
       "onboarded": 0,
       "offboarded": 2
     },
     {
-      "label": "2026-W1",
+      "label": "2025-09-04",
       "onboarded": 1,
-      "offboarded": 0
-    },
-    {
-      "label": "2026-W2",
-      "onboarded": 8,
-      "offboarded": 6
-    },
-    {
-      "label": "2026-W3",
-      "onboarded": 2,
       "offboarded": 1
     },
     {
-      "label": "2026-W4",
-      "onboarded": 3,
+      "label": "2025-09-05",
+      "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2026-W5",
-      "onboarded": 3,
+      "label": "2025-09-10",
+      "onboarded": 2,
       "offboarded": 0
-    }
-  ],
-  "South Africa": [
+    },
     {
-      "label": "2023-W21",
+      "label": "2025-09-12",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2023-W41",
-      "onboarded": 3,
+      "label": "2025-09-16",
+      "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2024-W18",
+      "label": "2025-09-17",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-18",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-24",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-30",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-03",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-13",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-14",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-16",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-18",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-24",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-29",
       "onboarded": 0,
       "offboarded": 1
     },
     {
-      "label": "2024-W19",
+      "label": "2025-11-02",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2024-W41",
+      "label": "2025-11-03",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-04",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-05",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-06",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-09",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-11",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-12",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-14",
       "onboarded": 1,
       "offboarded": 1
     },
     {
-      "label": "2025-W19",
-      "onboarded": 30,
+      "label": "2025-11-17",
+      "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2025-W20",
+      "label": "2025-11-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-21",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-25",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-29",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-30",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-12-04",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-12-05",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-12-07",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-12-10",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-17",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-12-18",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-12-27",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-01",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-02",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2026-01-05",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-06",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-07",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-09",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-12",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-14",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-15",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-23",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-08",
+      "onboarded": 0,
+      "offboarded": 1
+    }
+  ],
+  "South Africa": [
+    {
+      "label": "2020-11-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2021-03-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2021-09-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-05-23",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-05-03",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-05-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-10-09",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-05-05",
+      "onboarded": 6,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-06",
       "onboarded": 10,
       "offboarded": 0
     },
     {
-      "label": "2025-W21",
-      "onboarded": 8,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W22",
-      "onboarded": 3,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W23",
-      "onboarded": 4,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W25",
-      "onboarded": 2,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W26",
-      "onboarded": 2,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W27",
-      "onboarded": 2,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W28",
-      "onboarded": 1,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W29",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W30",
-      "onboarded": 3,
-      "offboarded": 1
-    },
-    {
-      "label": "2025-W31",
-      "onboarded": 3,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W34",
+      "label": "2025-05-07",
       "onboarded": 6,
       "offboarded": 0
     },
     {
-      "label": "2025-W36",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W37",
-      "onboarded": 4,
-      "offboarded": 0
-    },
-    {
-      "label": "2025-W38",
+      "label": "2025-05-08",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2025-W42",
-      "onboarded": 2,
+      "label": "2025-05-09",
+      "onboarded": 5,
       "offboarded": 0
     },
     {
-      "label": "2025-W43",
+      "label": "2025-05-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-12",
       "onboarded": 4,
       "offboarded": 0
     },
     {
-      "label": "2025-W44",
+      "label": "2025-05-14",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-15",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-16",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-18",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-19",
       "onboarded": 3,
       "offboarded": 0
     },
     {
-      "label": "2025-W45",
+      "label": "2025-05-20",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2025-W46",
+      "label": "2025-05-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-23",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-05-29",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-03",
       "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2025-W47",
+      "label": "2025-06-05",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-06-06",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-16",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-25",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-06-30",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-09",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-15",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-17",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-18",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-23",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-24",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-07-28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-07-29",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-21",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-08-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-01",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-02",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-03",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-09-09",
       "onboarded": 3,
-      "offboarded": 4
+      "offboarded": 0
     },
     {
-      "label": "2025-W49",
+      "label": "2025-09-10",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W50",
+      "label": "2025-09-16",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W51",
+      "label": "2025-09-19",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2025-W52",
+      "label": "2025-10-16",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-20",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2026-W2",
+      "label": "2025-10-21",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-23",
       "onboarded": 1,
       "offboarded": 0
     },
     {
-      "label": "2026-W3",
-      "onboarded": 4,
+      "label": "2025-10-24",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-10-27",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-29",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-10-30",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-03",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-04",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-14",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-17",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-11-19",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-11-20",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-12-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-12-12",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-12-21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-12-22",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-08",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-12",
+      "onboarded": 0,
       "offboarded": 6
     },
     {
-      "label": "2026-W4",
-      "onboarded": 6,
+      "label": "2026-01-13",
+      "onboarded": 2,
       "offboarded": 0
     },
     {
-      "label": "2026-W5",
+      "label": "2026-01-15",
       "onboarded": 1,
       "offboarded": 0
+    },
+    {
+      "label": "2026-01-18",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-19",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-21",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-23",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-29",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-01-31",
+      "onboarded": 0,
+      "offboarded": 1
     }
   ],
   "Jordan": [
     {
-      "label": "2026-W3",
+      "label": "2026-01-14",
       "onboarded": 1,
       "offboarded": 0
     }
