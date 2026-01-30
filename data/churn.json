@@ -1,0 +1,1275 @@
+{
+  "United Kingdom + Other": [
+    {
+      "label": "2022-W46",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2023-W2",
+      "onboarded": 9,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W4",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W6",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W8",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W9",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W10",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W12",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W14",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W15",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W16",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W18",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W19",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W22",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W23",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W24",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W25",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W27",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W29",
+      "onboarded": 9,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W30",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W32",
+      "onboarded": 7,
+      "offboarded": 2
+    },
+    {
+      "label": "2023-W33",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W34",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W35",
+      "onboarded": 7,
+      "offboarded": 1
+    },
+    {
+      "label": "2023-W36",
+      "onboarded": 6,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W37",
+      "onboarded": 9,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W38",
+      "onboarded": 8,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W39",
+      "onboarded": 10,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W40",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W41",
+      "onboarded": 138,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W42",
+      "onboarded": 15,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W43",
+      "onboarded": 11,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W44",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W45",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W46",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W47",
+      "onboarded": 7,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W48",
+      "onboarded": 13,
+      "offboarded": 7
+    },
+    {
+      "label": "2023-W49",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W50",
+      "onboarded": 10,
+      "offboarded": 2
+    },
+    {
+      "label": "2023-W51",
+      "onboarded": 14,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W52",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W1",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W2",
+      "onboarded": 8,
+      "offboarded": 4
+    },
+    {
+      "label": "2024-W3",
+      "onboarded": 2,
+      "offboarded": 2
+    },
+    {
+      "label": "2024-W4",
+      "onboarded": 5,
+      "offboarded": 3
+    },
+    {
+      "label": "2024-W5",
+      "onboarded": 1,
+      "offboarded": 4
+    },
+    {
+      "label": "2024-W6",
+      "onboarded": 1,
+      "offboarded": 2
+    },
+    {
+      "label": "2024-W7",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W9",
+      "onboarded": 2,
+      "offboarded": 7
+    },
+    {
+      "label": "2024-W10",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W11",
+      "onboarded": 20,
+      "offboarded": 2
+    },
+    {
+      "label": "2024-W12",
+      "onboarded": 11,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-W13",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W14",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W15",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W16",
+      "onboarded": 7,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W17",
+      "onboarded": 11,
+      "offboarded": 3
+    },
+    {
+      "label": "2024-W18",
+      "onboarded": 13,
+      "offboarded": 7
+    },
+    {
+      "label": "2024-W19",
+      "onboarded": 9,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W20",
+      "onboarded": 11,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W21",
+      "onboarded": 10,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W22",
+      "onboarded": 7,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W23",
+      "onboarded": 5,
+      "offboarded": 5
+    },
+    {
+      "label": "2024-W24",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W25",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W26",
+      "onboarded": 9,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W27",
+      "onboarded": 6,
+      "offboarded": 11
+    },
+    {
+      "label": "2024-W28",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W29",
+      "onboarded": 6,
+      "offboarded": 6
+    },
+    {
+      "label": "2024-W30",
+      "onboarded": 9,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W31",
+      "onboarded": 7,
+      "offboarded": 3
+    },
+    {
+      "label": "2024-W32",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W33",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-W34",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W35",
+      "onboarded": 0,
+      "offboarded": 4
+    },
+    {
+      "label": "2024-W36",
+      "onboarded": 0,
+      "offboarded": 3
+    },
+    {
+      "label": "2024-W37",
+      "onboarded": 0,
+      "offboarded": 6
+    },
+    {
+      "label": "2024-W38",
+      "onboarded": 0,
+      "offboarded": 8
+    },
+    {
+      "label": "2024-W40",
+      "onboarded": 2,
+      "offboarded": 12
+    },
+    {
+      "label": "2024-W41",
+      "onboarded": 59,
+      "offboarded": 18
+    },
+    {
+      "label": "2024-W42",
+      "onboarded": 1,
+      "offboarded": 7
+    },
+    {
+      "label": "2024-W43",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W44",
+      "onboarded": 10,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W45",
+      "onboarded": 15,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W46",
+      "onboarded": 1,
+      "offboarded": 9
+    },
+    {
+      "label": "2024-W47",
+      "onboarded": 2,
+      "offboarded": 12
+    },
+    {
+      "label": "2024-W48",
+      "onboarded": 7,
+      "offboarded": 2
+    },
+    {
+      "label": "2024-W49",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-W50",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-W51",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-W3",
+      "onboarded": 8,
+      "offboarded": 7
+    },
+    {
+      "label": "2025-W4",
+      "onboarded": 6,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W5",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W6",
+      "onboarded": 5,
+      "offboarded": 33
+    },
+    {
+      "label": "2025-W7",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W8",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W9",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W10",
+      "onboarded": 12,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W11",
+      "onboarded": 9,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W12",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W13",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W14",
+      "onboarded": 7,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W15",
+      "onboarded": 4,
+      "offboarded": 41
+    },
+    {
+      "label": "2025-W16",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W17",
+      "onboarded": 1,
+      "offboarded": 11
+    },
+    {
+      "label": "2025-W18",
+      "onboarded": 7,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-W19",
+      "onboarded": 3,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W20",
+      "onboarded": 11,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-W21",
+      "onboarded": 6,
+      "offboarded": 33
+    },
+    {
+      "label": "2025-W22",
+      "onboarded": 4,
+      "offboarded": 8
+    },
+    {
+      "label": "2025-W23",
+      "onboarded": 8,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-W24",
+      "onboarded": 3,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-W25",
+      "onboarded": 5,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-W26",
+      "onboarded": 16,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W27",
+      "onboarded": 6,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W28",
+      "onboarded": 10,
+      "offboarded": 9
+    },
+    {
+      "label": "2025-W29",
+      "onboarded": 5,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-W30",
+      "onboarded": 5,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-W31",
+      "onboarded": 8,
+      "offboarded": 4
+    },
+    {
+      "label": "2025-W32",
+      "onboarded": 7,
+      "offboarded": 4
+    },
+    {
+      "label": "2025-W33",
+      "onboarded": 4,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-W34",
+      "onboarded": 6,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W35",
+      "onboarded": 3,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-W36",
+      "onboarded": 5,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-W37",
+      "onboarded": 4,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-W38",
+      "onboarded": 4,
+      "offboarded": 4
+    },
+    {
+      "label": "2025-W39",
+      "onboarded": 4,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-W40",
+      "onboarded": 6,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W41",
+      "onboarded": 2,
+      "offboarded": 10
+    },
+    {
+      "label": "2025-W42",
+      "onboarded": 5,
+      "offboarded": 10
+    },
+    {
+      "label": "2025-W43",
+      "onboarded": 6,
+      "offboarded": 7
+    },
+    {
+      "label": "2025-W44",
+      "onboarded": 7,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W45",
+      "onboarded": 0,
+      "offboarded": 7
+    },
+    {
+      "label": "2025-W46",
+      "onboarded": 6,
+      "offboarded": 7
+    },
+    {
+      "label": "2025-W47",
+      "onboarded": 3,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-W48",
+      "onboarded": 5,
+      "offboarded": 2
+    },
+    {
+      "label": "2025-W49",
+      "onboarded": 6,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-W50",
+      "onboarded": 2,
+      "offboarded": 5
+    },
+    {
+      "label": "2025-W51",
+      "onboarded": 3,
+      "offboarded": 4
+    },
+    {
+      "label": "2025-W52",
+      "onboarded": 1,
+      "offboarded": 4
+    },
+    {
+      "label": "2026-W1",
+      "onboarded": 2,
+      "offboarded": 9
+    },
+    {
+      "label": "2026-W2",
+      "onboarded": 6,
+      "offboarded": 8
+    },
+    {
+      "label": "2026-W3",
+      "onboarded": 5,
+      "offboarded": 4
+    },
+    {
+      "label": "2026-W4",
+      "onboarded": 3,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-W5",
+      "onboarded": 2,
+      "offboarded": 1
+    }
+  ],
+  "United Arab Emirates": [
+    {
+      "label": "2023-W10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W41",
+      "onboarded": 6,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W9",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-W30",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W41",
+      "onboarded": 41,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W42",
+      "onboarded": 13,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W43",
+      "onboarded": 7,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W44",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W45",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W47",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W48",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W49",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W50",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W51",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W2",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W3",
+      "onboarded": 1,
+      "offboarded": 4
+    },
+    {
+      "label": "2025-W4",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W5",
+      "onboarded": 7,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W6",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W7",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W9",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W10",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W11",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W12",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W13",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W14",
+      "onboarded": 7,
+      "offboarded": 6
+    },
+    {
+      "label": "2025-W15",
+      "onboarded": 4,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W16",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W17",
+      "onboarded": 6,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W18",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W19",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W20",
+      "onboarded": 4,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W21",
+      "onboarded": 2,
+      "offboarded": 4
+    },
+    {
+      "label": "2025-W22",
+      "onboarded": 10,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-W23",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W24",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W25",
+      "onboarded": 7,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W26",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W27",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W28",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W29",
+      "onboarded": 3,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W30",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W31",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W32",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W33",
+      "onboarded": 4,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-W34",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W35",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W36",
+      "onboarded": 7,
+      "offboarded": 3
+    },
+    {
+      "label": "2025-W37",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W38",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W39",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W40",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W41",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W42",
+      "onboarded": 5,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W43",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W44",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W45",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W46",
+      "onboarded": 7,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W47",
+      "onboarded": 6,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W48",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W49",
+      "onboarded": 3,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W50",
+      "onboarded": 3,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W51",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W52",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2026-W1",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-W2",
+      "onboarded": 8,
+      "offboarded": 6
+    },
+    {
+      "label": "2026-W3",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-W4",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-W5",
+      "onboarded": 3,
+      "offboarded": 0
+    }
+  ],
+  "South Africa": [
+    {
+      "label": "2023-W21",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2023-W41",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W18",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2024-W19",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2024-W41",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W19",
+      "onboarded": 30,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W20",
+      "onboarded": 10,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W21",
+      "onboarded": 8,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W22",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W23",
+      "onboarded": 4,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W25",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W26",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W27",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W29",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W30",
+      "onboarded": 3,
+      "offboarded": 1
+    },
+    {
+      "label": "2025-W31",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W34",
+      "onboarded": 6,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W36",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W37",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W38",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W42",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W43",
+      "onboarded": 4,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W44",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W45",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W46",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W47",
+      "onboarded": 3,
+      "offboarded": 4
+    },
+    {
+      "label": "2025-W49",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W50",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W51",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2025-W52",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-W2",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-W3",
+      "onboarded": 4,
+      "offboarded": 6
+    },
+    {
+      "label": "2026-W4",
+      "onboarded": 6,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-W5",
+      "onboarded": 1,
+      "offboarded": 0
+    }
+  ],
+  "Jordan": [
+    {
+      "label": "2026-W3",
+      "onboarded": 1,
+      "offboarded": 0
+    }
+  ]
+}

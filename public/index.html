@@ -3,26 +3,27 @@
 
 <head>
   <title>Membership Funnel Dashboard</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       margin: 0;
       padding: 40px 0;
       background: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     h2 {
-      margin-bottom: 20px;
+      margin: 30px 0 15px;
       font-size: 24px;
     }
 
     .control-row {
       display: flex;
       gap: 10px;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
     }
 
     select,
@@ -36,17 +37,7 @@
 
     button {
       background: #444;
-      color: white;
-    }
-
-    button.pressed {
-      transform: scale(0.96);
-      opacity: 0.8;
-      transition: 0.15s;
-    }
-
-    button {
-      transition: 0.2s;
+      color: #fff;
     }
 
     .grid {
@@ -59,65 +50,128 @@
     .funnel-box {
       border: 1px solid #ddd;
       border-radius: 12px;
-      padding: 12px;
+      padding: 14px;
       background: #fafafa;
     }
 
     .country-title {
-      font-size: 17px;
+      text-align: center;
       font-weight: bold;
       margin-bottom: 12px;
-      text-align: center;
     }
+
+    /* ================= FUNNEL ================= */
 
     .row {
       display: flex;
-      width: 100%;
       align-items: center;
-      margin: 14px 0;
+      margin: 12px 0;
     }
 
     .stage {
-      width: 300px;
+      width: 120px;
       text-align: right;
       padding-right: 16px;
-      font-size: 14px;
-      white-space: nowrap;
       font-weight: bold;
-      color: #333;
     }
 
-    /* PROPER INVERTED FUNNEL TRAPEZOIDS */
     .bar-wrapper {
+      flex: 1;
       height: 52px;
-      width: 100%;
-      position: relative;
       display: flex;
       align-items: center;
       justify-content: center;
-      overflow: visible;
     }
 
     .bar {
       height: 100%;
-      color: white;
-      font-weight: bold;
-      font-size: 17px;
-      line-height: 52px;
-      text-align: center;
       width: var(--w);
       background: var(--c);
       clip-path: var(--shape);
       border-radius: 7px;
+      color: #fff;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .metrics {
-      width: 450px;
-      text-align: left;
+      width: 120px;
+      font-size: 14px;
       padding-left: 10px;
-      font-size: 12px;
-      color: #333;
-      line-height: 1.25;
+    }
+
+    /* ================= CHURN ================= */
+
+    .churn-scroll {
+      max-height: 550px;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+
+    .churn-chart {
+      display: flex;
+      align-items: flex-end;
+      gap: 40px;
+      min-width: max-content;
+      height: 520px;
+      /* ⬅️ room for taller bars */
+      padding: 10px;
+    }
+
+    .churn-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 48px;
+    }
+
+    .churn-bars {
+      display: flex;
+      gap: 1px;
+      align-items: flex-end;
+      height: 420px;
+      /* ⬅️ taller bars */
+    }
+
+
+    .churn-bar {
+      width: 30px;
+      border-radius: 4px 4px 0 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      color: #050505;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .zero-bar {
+      width: 30px;
+      height: 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: #050505;
+    }
+
+
+    .onboarded {
+      background: #4CAF50;
+    }
+
+    .offboarded {
+      background: #E74C3C;
+    }
+
+    .churn-label {
+      margin-top: 6px;
+      font-size: 11px;
+      text-align: center;
+      white-space: nowrap;
     }
   </style>
 </head>
@@ -126,6 +180,7 @@
 
   <h2 id="title"></h2>
 
+  <!-- FUNNEL FILTER -->
   <div class="control-row">
     <select id="yearSelect"></select>
     <select id="monthSelect"></select>
@@ -134,15 +189,34 @@
 
   <div class="grid" id="grid"></div>
 
+  <!-- CHURN -->
+  <h2>Membership Churn</h2>
+
+  <div class="control-row">
+    <select id="churnRange">
+      <option value="weekly">Weekly</option>
+      <option value="monthly" selected>Monthly</option>
+      <option value="quarterly">Quarterly</option>
+      <option value="half-year">Half-Year</option>
+      <option value="yearly">Yearly</option>
+    </select>
+  </div>
+
+  <div class="grid" id="churnGrid"></div>
+
   <script>
     let jsonData = null;
+    let churnData = null;
 
     const START_YEAR = 2025;
     const CURRENT_YEAR = new Date().getFullYear();
+
     const monthNames = [
       "January", "February", "March", "April", "May", "June",
       "July", "August", "September", "October", "November", "December"
     ];
+
+    const shortMonths = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
     const COUNTRIES = [
       "United Kingdom + Other",
@@ -153,57 +227,51 @@
 
     fetchData();
 
-    let selectorsBuilt = false;
+    /* ================= FETCH ================= */
 
-    function fetchData() {
-      fetch('/data')
-        .then(res => res.json())
-        .then(data => {
-          jsonData = data;
-          if (!selectorsBuilt) {
-            buildSelectors();
-            selectorsBuilt = true;
-          }
-          renderDashboard();
-        });
+    async function fetchData() {
+      const ts = Date.now();
+      jsonData = await fetch(`/data?ts=${ts}`).then(r => r.json());
+      churnData = await fetch(`/churn?ts=${ts}`).then(r => r.json());
+      buildSelectors();
+      renderDashboard();
+      renderChurn();
     }
+
+    /* ================= SELECTORS ================= */
 
     function buildSelectors() {
-      const yearSel = document.getElementById("yearSelect");
-      const monthSel = document.getElementById("monthSelect");
+      if (yearSelect.options.length) return;
 
       for (let y = START_YEAR; y <= CURRENT_YEAR; y++) {
-        yearSel.innerHTML += `<option value="${y}">${y}</option>`;
+        yearSelect.innerHTML += `<option value="${y}">${y}</option>`;
       }
-      for (let m = 0; m < 12; m++) {
-        monthSel.innerHTML += `<option value="${String(m + 1).padStart(2, "0")}">${monthNames[m]}</option>`;
-      }
-      yearSel.onchange = renderDashboard;
-      monthSel.onchange = renderDashboard;
+
+      monthNames.forEach((m, i) => {
+        monthSelect.innerHTML += `<option value="${String(i + 1).padStart(2, "0")}">${m}</option>`;
+      });
+
+      yearSelect.value = CURRENT_YEAR;
+      monthSelect.value = String(new Date().getMonth() + 1).padStart(2, "0");
+
+      yearSelect.onchange = renderDashboard;
+      monthSelect.onchange = renderDashboard;
+      churnRange.onchange = renderChurn;
     }
 
+    /* ================= FUNNEL ================= */
+
     function renderDashboard() {
-      const grid = document.getElementById("grid");
       grid.innerHTML = "";
-
-      const year = document.getElementById("yearSelect").value;
-      const month = document.getElementById("monthSelect").value;
-      const key = `${year}-${month}`;
-
-      document.getElementById("title").textContent =
-        `Membership Funnel — ${monthNames[parseInt(month) - 1]} ${year}`;
-
+      const key = `${yearSelect.value}-${monthSelect.value}`;
+      title.textContent = `Membership Funnel — ${monthNames[monthSelect.value - 1]} ${yearSelect.value}`;
       COUNTRIES.forEach(c => renderFunnelBox(grid, key, c));
     }
 
     function renderFunnelBox(grid, key, country) {
-      const box = document.createElement("div");
-      box.className = "funnel-box";
+      const data = jsonData?.[key]?.[country];
 
-      const monthData = jsonData[key];
-      const data = monthData ? monthData[country] : null;
-
-      const order = [
+      const stages = [
         "Joined Waitlist",
         "Offer Interview",
         "Interview",
@@ -213,100 +281,168 @@
       ];
 
       const rows = data
-        ? order.map(n => Object.values(data.stages).find(s => s.name === n))
-        : order.map(n => ({ name: n, count: 0, conversion_prev: 0, conversion_cohort: 0, drop: 0 }));
-
-      const pct = x => (x * 100).toFixed(1) + "%";
+        ? stages.map(s => Object.values(data.stages).find(x => x.name === s))
+        : stages.map(s => ({ name: s, count: 0, drop: 0 }));
 
       const widths = ["100%", "98%", "75%", "50%", "25%", "8%"];
-
       const shapes = [
-        "inset(0 0 0 0)", // Rectangle (Joined Waitlist)
-
-        "polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%)", // Offer Interview
-        "polygon(0% 0%, 100% 0%, 85% 100%, 15% 100%)", // Interview
-        "polygon(0% 0%, 100% 0%, 80% 100%, 20% 100%)", // Offer Membership
-        "polygon(0% 0%, 100% 0%, 70% 100%, 30% 100%)", // Paid
-        "polygon(0% 0%, 100% 0%, 60% 100%, 40% 100%)"  // Member
+        "inset(0 0 0 0)",
+        "polygon(0% 0%,100% 0%,90% 100%,10% 100%)",
+        "polygon(0% 0%,100% 0%,85% 100%,15% 100%)",
+        "polygon(0% 0%,100% 0%,80% 100%,20% 100%)",
+        "polygon(0% 0%,100% 0%,70% 100%,30% 100%)",
+        "polygon(0% 0%,100% 0%,60% 100%,40% 100%)"
       ];
 
       const colors = ["#4169E1", "#3A7FF0", "#5A8DEE", "#7FB5F3", "#F4C24B", "#DB5A2E"];
 
+      const box = document.createElement("div");
+      box.className = "funnel-box";
       box.innerHTML = `<div class="country-title">${country}</div>`;
 
       rows.forEach((r, i) => {
-        // const prev = i === 0 ? "100% prev" : `prev ${pct(r.conversion_prev)}`;
-        // const coh = `cohort ${pct(r.conversion_cohort)}`;
-        const drop = i === 0 ? "" : `| drop ${r.drop}`;
-
         box.innerHTML += `
-  <div class="row">
-    <div class="stage">${r.name}</div>
-    <div class="bar-wrapper">
-      <div class="bar" style="--w:${widths[i]}; --c:${colors[i]}; --shape:${shapes[i]};">
-        ${r.count}
-      </div>
-    </div>
-    <div class="metrics">${i === 0 ? "" : `drop ${r.drop}`}</div>
-  </div>`;
-
-        // box.innerHTML += `
-        // <div class="row">
-        //   <div class="stage">${r.name}</div>
-        //   <div class="bar-wrapper">
-        //     <div class="bar" style="--w:${widths[i]}; --c:${colors[i]}; --shape:${shapes[i]};">
-        //       ${r.count}
-        //     </div>
-        //   </div>
-        //   <div class="metrics">${i === 0 ? coh : `${prev} | ${coh}${drop}`}</div>
-        // </div>`;
+      <div class="row">
+        <div class="stage">${r.name}</div>
+        <div class="bar-wrapper">
+          <div class="bar"
+            style="--w:${widths[i]};
+                   --c:${colors[i]};
+                   --shape:${shapes[i]}">
+            ${r.count}
+          </div>
+        </div>
+        <div class="metrics">${i === 0 ? "" : `drop ${r.drop}`}</div>
+      </div>`;
       });
 
       grid.appendChild(box);
     }
 
-    window.onload = () => {
+    /* ================= CHURN ================= */
 
-      const refreshBtn = document.getElementById("refreshBtn");
+    function getISOWeekStart(year, week) {
+      const d = new Date(year, 0, 1 + (week - 1) * 7);
+      d.setDate(d.getDate() - d.getDay() + 1);
+      return d;
+    }
 
-      refreshBtn.addEventListener("click", () => {
-        refreshBtn.disabled = true;
-        refreshBtn.classList.add("pressed");
-        const original = "Refresh Data";
-        refreshBtn.textContent = "Refreshing...";
+    function aggregateChurn(rows, mode) {
+      if (mode === "weekly") return rows;
 
-        fetch('/refresh', { method: 'POST' })
-          .then(res => res.json())
-          .then(json => {
-            if (json.ok) {
-              refreshBtn.textContent = "Refreshed ✓";
-              fetchData();
-            } else {
-              refreshBtn.textContent = "Refresh Failed ✗";
-              console.error(json.error || json);
-            }
+      const map = {};
+      rows.forEach(r => {
+        const [y, w] = r.label.split("-W").map(Number);
+        const d = getISOWeekStart(y, w);
+        let key;
 
-            setTimeout(() => {
-              refreshBtn.disabled = false;
-              refreshBtn.classList.remove("pressed");
-              refreshBtn.textContent = original;
-            }, 1500);
-          })
-          .catch(err => {
-            refreshBtn.textContent = "Refresh Failed ✗";
-            console.error(err);
-            setTimeout(() => {
-              refreshBtn.disabled = false;
-              refreshBtn.classList.remove("pressed");
-              refreshBtn.textContent = original;
-            }, 1500);
-          });
+        if (mode === "monthly") key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+        else if (mode === "quarterly") key = `${d.getFullYear()}-Q${Math.ceil((d.getMonth() + 1) / 3)}`;
+        else if (mode === "half-year") key = `${d.getFullYear()}-H${d.getMonth() < 6 ? 1 : 2}`;
+        else key = `${d.getFullYear()}`;
+
+        map[key] ??= { label: key, onboarded: 0, offboarded: 0 };
+        map[key].onboarded += r.onboarded;
+        map[key].offboarded += r.offboarded;
       });
 
+      return Object.values(map).sort((a, b) => a.label.localeCompare(b.label));
+    }
+
+    function formatChurnLabel(label, mode) {
+      if (mode === "weekly") {
+        const [y, w] = label.split("-W").map(Number);
+        const s = getISOWeekStart(y, w);
+        const e = new Date(s); e.setDate(s.getDate() + 6);
+        return `${s.getDate()}–${e.getDate()}<br>${shortMonths[s.getMonth()]}, ${y}`;
+      }
+      if (mode === "monthly") {
+        const [y, m] = label.split("-");
+        return `${shortMonths[m - 1]}<br>${y}`;
+      }
+      if (mode === "quarterly") {
+        const [y, q] = label.split("-Q").map(Number);
+        return `(${shortMonths[(q - 1) * 3]}–${shortMonths[(q - 1) * 3 + 2]})<br>${y}`;
+      }
+      if (mode === "half-year") {
+        const [y, h] = label.split("-H").map(Number);
+        return h === 1 ? `(Jan–Jun)<br>${y}` : `(Jul–Dec)<br>${y}`;
+      }
+      return label;
+    }
+
+    function renderChurn() {
+      churnGrid.innerHTML = "";
+      const mode = churnRange.value;
+
+      COUNTRIES.forEach(country => {
+        const raw = churnData?.[country] || [];
+        if (!raw.length) return;
+
+        const rows = aggregateChurn(raw, mode);
+        const max = Math.max(...rows.map(r => Math.max(r.onboarded, r.offboarded)), 1);
+
+        const box = document.createElement("div");
+        box.className = "funnel-box";
+        box.innerHTML = `<div class="country-title">${country}</div>`;
+
+        const scroll = document.createElement("div");
+        scroll.className = "churn-scroll";
+
+        const chart = document.createElement("div");
+        chart.className = "churn-chart";
+
+        rows.forEach(r => {
+          chart.innerHTML += `
+  <div class="churn-group">
+    <div class="churn-bars">
+      <div class="churn-bars">
+
+  <!-- ONBOARDED -->
+  ${r.onboarded > 0
+              ? `<div class="churn-bar onboarded"
+             style="height:${(r.onboarded / max) * 100}%">
+          ${r.onboarded}
+       </div>`
+              : `<div class="zero-bar">0</div>`}
+
+  <!-- OFFBOARDED -->
+  ${r.offboarded > 0
+              ? `<div class="churn-bar offboarded"
+             style="height:${(r.offboarded / max) * 100}%">
+          ${r.offboarded}
+       </div>`
+              : `<div class="zero-bar">0</div>`}
+
+</div>
+
+    </div>
+    <div class="churn-label">${formatChurnLabel(r.label, mode)}</div>
+  </div>`;
+
+        });
+
+        scroll.appendChild(chart);
+        box.appendChild(scroll);
+        churnGrid.appendChild(box);
+      });
+    }
+
+    /* ================= REFRESH ================= */
+
+    refreshBtn.onclick = async () => {
+      refreshBtn.disabled = true;
+      refreshBtn.textContent = "Refreshing…";
+      try {
+        await fetch("/refresh", { method: "POST" });
+        await fetchData();
+      } finally {
+        refreshBtn.disabled = false;
+        refreshBtn.textContent = "Refresh Data";
+      }
     };
-
-
   </script>
+
 </body>
 
 </html>

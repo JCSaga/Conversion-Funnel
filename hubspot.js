@@ -1,5 +1,6 @@
 const axios = require("axios");
 const { HUBSPOT_TOKEN, ORDERED_FUNNEL } = require("./config");
+const EX_MEMBER_STAGE = "41889204";
 
 const hs = axios.create({
   baseURL: "https://api.hubapi.com",
@@ -18,8 +19,12 @@ async function getDeals() {
     "pipeline",
     "createdate",
     "country_of_residence",
+    "membership_start_date",
+    "membership_end_date",
+    `hs_v2_date_entered_${EX_MEMBER_STAGE}`,
     ...ORDERED_FUNNEL.map(id => `hs_v2_date_entered_${id}`)
   ].join(",");
+
 
   while (true) {
     const params = { limit: 100, properties: props };

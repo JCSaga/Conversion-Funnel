@@ -15,34 +15,33 @@ app.get('/data', (req, res) => {
         const json = JSON.parse(fs.readFileSync(filePath));
         res.json(json);
     } catch (e) {
-        console.error("Error reading funnels.json:", e);
-        res.status(500).json({ ok: false, message: "Could not read data." });
+        res.status(500).json({ ok: false });
     }
 });
 
-// Refresh funnel data
-app.post('/refresh', (req, res) => {
-    console.log("Running funnel.js to refresh data...");
+// ✅ GET churn data
+app.get('/churn', (req, res) => {
+    const filePath = path.join(__dirname, 'data', 'churn.json');
+    try {
+        const json = JSON.parse(fs.readFileSync(filePath));
+        res.json(json);
+    } catch (e) {
+        res.status(500).json({ ok: false });
+    }
+});
 
-    exec('node funnel.js', (err, stdout, stderr) => {
+// Refresh funnel + churn
+app.post('/refresh', (req, res) => {
+    console.log("Refreshing funnel + churn...");
+
+    exec('node funnel.js && node churn.js', (err, stdout) => {
         if (err) {
-            console.error("Refresh error:", err);
-            return res.status(500).json({
-                ok: false,
-                message: "Refresh failed",
-                error: err.toString()
-            });
+            return res.status(500).json({ ok: false });
         }
 
-        console.log("Refresh completed");
-        res.json({
-            ok: true,
-            message: "Refresh successful",
-            output: stdout
-        });
+        res.json({ ok: true });
     });
 });
 
-// Dynamic port for Render
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
