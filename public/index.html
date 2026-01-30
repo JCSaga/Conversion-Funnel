@@ -43,9 +43,11 @@
     .grid {
       width: 1450px;
       display: grid;
-      grid-template-columns: 720px 720px;
+      grid-template-columns: repeat(auto-fit, 720px);
       gap: 10px;
+      justify-content: center;
     }
+
 
     .funnel-box {
       border: 1px solid #ddd;
@@ -224,6 +226,16 @@
 
   <h2 id="title"></h2>
 
+  <!-- COUNTRY FILTER -->
+  <div class="control-row">
+    <select id="countryFilter">
+      <option value="all" selected>All Countries</option>
+      <option value="uk">United Kingdom + Other Countries</option>
+      <option value="uae-jordan">United Arab Emirates & Jordan</option>
+      <option value="sa">South Africa</option>
+    </select>
+  </div>
+
   <!-- FUNNEL FILTER -->
   <div class="control-row">
     <select id="yearSelect"></select>
@@ -279,12 +291,25 @@
 
     const shortMonths = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-    const COUNTRIES = [
-      "United Kingdom + Other",
-      "United Arab Emirates",
-      "South Africa",
-      "Jordan"
-    ];
+    const COUNTRY_GROUPS = {
+      all: [
+        "United Kingdom + Other",
+        "United Arab Emirates",
+        "South Africa",
+        "Jordan"
+      ],
+      uk: [
+        "United Kingdom + Other"
+      ],
+      "uae-jordan": [
+        "United Arab Emirates",
+        "Jordan"
+      ],
+      sa: [
+        "South Africa"
+      ]
+    };
+
 
     fetchData();
 
@@ -318,6 +343,11 @@
       yearSelect.onchange = renderDashboard;
       monthSelect.onchange = renderDashboard;
       churnRange.onchange = renderChurn;
+      countryFilter.onchange = () => {
+        renderDashboard();
+        renderChurn();
+      };
+
     }
 
     /* ================= FUNNEL ================= */
@@ -325,8 +355,12 @@
     function renderDashboard() {
       grid.innerHTML = "";
       const key = `${yearSelect.value}-${monthSelect.value}`;
-      title.textContent = `Membership Conversion Funnel — ${monthNames[monthSelect.value - 1]} ${yearSelect.value}`;
-      COUNTRIES.forEach(c => renderFunnelBox(grid, key, c));
+      title.textContent = `Membership Conversion Funnel`;
+      const selected = countryFilter.value;
+      const visibleCountries = COUNTRY_GROUPS[selected];
+
+      visibleCountries.forEach(c => renderFunnelBox(grid, key, c));
+
     }
 
     function renderFunnelBox(grid, key, country) {
@@ -452,7 +486,11 @@
       churnGrid.innerHTML = "";
       const mode = churnRange.value;
 
-      COUNTRIES.forEach(country => {
+      const selected = countryFilter.value;
+      const visibleCountries = COUNTRY_GROUPS[selected];
+
+      visibleCountries.forEach(country => {
+
         const raw = churnData?.[country] || [];
         if (!raw.length) return;
 
