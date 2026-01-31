@@ -62,6 +62,19 @@
       margin-bottom: 12px;
     }
 
+    #refreshStatus {
+      font-size: 12px;
+      margin-left: 10px;
+      color: #555;
+      font-style: italic;
+    }
+
+    button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+
     /* ================= FUNNEL ================= */
 
     .row {
@@ -238,10 +251,17 @@
 
   <!-- FUNNEL FILTER -->
   <div class="control-row">
-    <select id="yearSelect"></select>
-    <select id="monthSelect"></select>
+    <select id="funnelRange">
+      <option value="weekly">Weekly</option>
+      <option value="monthly" selected>Monthly</option>
+      <option value="yearly">Yearly</option>
+    </select>
+
+    <select id="funnelPeriod"></select>
     <button id="refreshBtn">Refresh Data</button>
+    <span id="refreshStatus"></span>
   </div>
+
 
   <div class="grid" id="grid"></div>
 
@@ -293,13 +313,13 @@
 
     const COUNTRY_GROUPS = {
       all: [
-        "United Kingdom + Other",
+        "United Kingdom + Other Countries",
         "United Arab Emirates",
         "South Africa",
         "Jordan"
       ],
       uk: [
-        "United Kingdom + Other"
+        "United Kingdom + Other Countries"
       ],
       "uae-jordan": [
         "United Arab Emirates",
@@ -320,6 +340,7 @@
       jsonData = await fetch(`/data?ts=${ts}`).then(r => r.json());
       churnData = await fetch(`/churn?ts=${ts}`).then(r => r.json());
       buildSelectors();
+      buildFunnelPeriods();   // 👈 must come first
       renderDashboard();
       renderChurn();
     }
@@ -327,34 +348,69 @@
     /* ================= SELECTORS ================= */
 
     function buildSelectors() {
-      if (yearSelect.options.length) return;
-
-      for (let y = START_YEAR; y <= CURRENT_YEAR; y++) {
-        yearSelect.innerHTML += `<option value="${y}">${y}</option>`;
-      }
-
-      monthNames.forEach((m, i) => {
-        monthSelect.innerHTML += `<option value="${String(i + 1).padStart(2, "0")}">${m}</option>`;
-      });
-
-      yearSelect.value = CURRENT_YEAR;
-      monthSelect.value = String(new Date().getMonth() + 1).padStart(2, "0");
-
-      yearSelect.onchange = renderDashboard;
-      monthSelect.onchange = renderDashboard;
       churnRange.onchange = renderChurn;
       countryFilter.onchange = () => {
         renderDashboard();
         renderChurn();
       };
 
+      funnelRange.onchange = () => {
+        buildFunnelPeriods();
+        renderDashboard();
+      };
+
+      funnelPeriod.onchange = renderDashboard;
+
+
     }
+
+    function buildFunnelPeriods() {
+      funnelPeriod.innerHTML = "";
+
+      const mode = funnelRange.value;
+      const keys = Object.keys(jsonData || {}).sort();
+
+      let filtered;
+
+      if (mode === "weekly") {
+        filtered = keys.filter(k => k.includes("-W"));
+      } else if (mode === "yearly") {
+        filtered = keys.filter(k => /^\d{4}$/.test(k));
+      } else {
+        filtered = keys.filter(k => /^\d{4}-\d{2}$/.test(k));
+      }
+
+      filtered.forEach(k => {
+        funnelPeriod.innerHTML += `<option value="${k}">${formatFunnelLabel(k, mode)}</option>`;
+      });
+
+      funnelPeriod.selectedIndex = 0;
+    }
+
+    function formatFunnelLabel(key, mode) {
+      if (mode === "weekly") {
+        const [y, w] = key.split("-W");
+        const start = dayjs().year(y).isoWeek(w).startOf("isoWeek");
+        const end = start.add(6, "day");
+        return `${start.date()}–${end.date()} ${shortMonths[start.month()]}, ${y}`;
+      }
+
+      if (mode === "monthly") {
+        const [y, m] = key.split("-");
+        return `${shortMonths[m - 1]} ${y}`;
+      }
+
+      return key; // yearly
+    }
+
+
+
 
     /* ================= FUNNEL ================= */
 
     function renderDashboard() {
       grid.innerHTML = "";
-      const key = `${yearSelect.value}-${monthSelect.value}`;
+      const key = funnelPeriod.value;
       title.textContent = `Membership Conversion Funnel`;
       const selected = countryFilter.value;
       const visibleCountries = COUNTRY_GROUPS[selected];
@@ -545,17 +601,57 @@
 
     /* ================= REFRESH ================= */
 
+
+    function resetToDefaultStates() {
+      // Funnel defaults
+      funnelRange.value = "monthly";
+      buildFunnelPeriods();          // rebuild periods for monthly
+      funnelPeriod.selectedIndex = 0; // latest month
+
+      // Churn defaults
+      churnRange.value = "monthly";
+    }
+
     refreshBtn.onclick = async () => {
       refreshBtn.disabled = true;
       refreshBtn.textContent = "Refreshing…";
+
       try {
-        await fetch("/refresh", { method: "POST" });
+        const res = await fetch("/refresh", { method: "POST" });
+        const data = await res.json();
+
+        if (!res.ok || !data.ok) {
+          refreshBtn.textContent = "Refresh Failed";
+          setTimeout(() => {
+            refreshBtn.textContent = "Refresh Data";
+            refreshBtn.disabled = false;
+          }, 2000);
+          return;
+        }
+
         await fetchData();
-      } finally {
-        refreshBtn.disabled = false;
-        refreshBtn.textContent = "Refresh Data";
+        resetToDefaultStates();
+        renderDashboard();
+        renderChurn();
+
+
+        refreshBtn.textContent = "Refresh Completed";
+
+        setTimeout(() => {
+          refreshBtn.textContent = "Refresh Data";
+          refreshBtn.disabled = false;
+        }, 1500);
+
+      } catch {
+        refreshBtn.textContent = "Network Error";
+        setTimeout(() => {
+          refreshBtn.textContent = "Refresh Data";
+          refreshBtn.disabled = false;
+        }, 2000);
       }
     };
+
+
   </script>
 
 </body>

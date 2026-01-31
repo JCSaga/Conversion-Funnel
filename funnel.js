@@ -1,22 +1,38 @@
 const dayjs = require("dayjs");
+
+const isoWeek = require("dayjs/plugin/isoWeek");
+const isSameOrAfter = require("dayjs/plugin/isSameOrAfter");
+
+dayjs.extend(isoWeek);
+dayjs.extend(isSameOrAfter);
+
 const fs = require("fs");
 const path = require("path");
 const { getDeals } = require("./hubspot");
 const { ORDERED_FUNNEL, STAGE_NAMES, FUNNEL_STAGES } = require("./config");
 
+
+function getWeek(ts) {
+  return `${dayjs(ts).isoWeekYear()}-W${String(dayjs(ts).isoWeek()).padStart(2, "0")}`;
+}
+
 function getMonth(ts) {
   return dayjs(ts).format("YYYY-MM");
 }
 
+function getYear(ts) {
+  return dayjs(ts).format("YYYY");
+}
+
 function bucketCountry(raw) {
-  if (!raw) return "United Kingdom + Other";
+  if (!raw) return "United Kingdom + Other Countries";
   const c = raw.trim();
 
   if (c === "United Arab Emirates") return "United Arab Emirates";
   if (c === "South Africa") return "South Africa";
   if (c === "Jordan") return "Jordan";
 
-  return "United Kingdom + Other";
+  return "United Kingdom + Other Countries";
 }
 
 async function buildFunnel() {
@@ -30,12 +46,20 @@ async function buildFunnel() {
     const joinedTs = props[`hs_v2_date_entered_${FUNNEL_STAGES.JOINED_WAITLIST}`];
     if (!joinedTs) continue;
 
-    const cohortMonth = getMonth(joinedTs);
+    const keys = [
+      getWeek(joinedTs),
+      getMonth(joinedTs),
+      getYear(joinedTs)
+    ];
+
     const country = bucketCountry(props.country_of_residence);
 
-    cohorts[cohortMonth] = cohorts[cohortMonth] || {};
-    cohorts[cohortMonth][country] = cohorts[cohortMonth][country] || [];
-    cohorts[cohortMonth][country].push(props);
+    keys.forEach(key => {
+      cohorts[key] ??= {};
+      cohorts[key][country] ??= [];
+      cohorts[key][country].push(props);
+    });
+
   }
 
   const result = {};
@@ -54,9 +78,18 @@ async function buildFunnel() {
           const ts = props[`hs_v2_date_entered_${stage}`];
           if (!ts) return;
 
-          if (getMonth(ts) >= month) {
+          const entered = dayjs(ts);
+          const cohortStart =
+            month.includes("-W")
+              ? dayjs().year(month.split("-W")[0]).isoWeek(month.split("-W")[1]).startOf("isoWeek")
+              : month.length === 4
+                ? dayjs(`${month}-01-01`)
+                : dayjs(`${month}-01`);
+
+          if (entered.isSameOrAfter(cohortStart)) {
             counts[stage]++;
           }
+
         });
       }
 
