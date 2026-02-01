@@ -1,6 +1,6 @@
 const dayjs = require("dayjs");
-const isoWeek = require("dayjs/plugin/isoWeek");
-dayjs.extend(isoWeek);
+const weekOfYear = require("dayjs/plugin/weekOfYear");
+dayjs.extend(weekOfYear);
 
 const fs = require("fs");
 const path = require("path");

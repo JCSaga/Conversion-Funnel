@@ -292,9 +292,9 @@
 
   <div class="grid" id="churnGrid"></div>
   <script src="https://unpkg.com/dayjs@1/dayjs.min.js"></script>
-  <script src="https://unpkg.com/dayjs@1/plugin/isoWeek.js"></script>
+  <script src="https://unpkg.com/dayjs@1/plugin/weekOfYear.js"></script>
   <script>
-    dayjs.extend(window.dayjs_plugin_isoWeek);
+    dayjs.extend(window.dayjs_plugin_weekOfYear);
   </script>
 
   <script>
@@ -390,7 +390,7 @@
     function formatFunnelLabel(key, mode) {
       if (mode === "weekly") {
         const [y, w] = key.split("-W");
-        const start = dayjs().year(y).isoWeek(w).startOf("isoWeek");
+        const start = dayjs().year(y).week(w).startOf("week"); // Sunday
         const end = start.add(6, "day");
         return `${start.date()}–${end.date()} ${shortMonths[start.month()]}, ${y}`;
       }
@@ -486,7 +486,7 @@
         let key;
 
         if (mode === "weekly") {
-          key = `${d.isoWeekYear()}-W${String(d.isoWeek()).padStart(2, "0")}`;
+          key = `${d.year()}-W${String(d.week()).padStart(2, "0")}`;
         }
         else if (mode === "monthly") {
           key = `${d.year()}-${String(d.month() + 1).padStart(2, "0")}`;
@@ -514,7 +514,7 @@
     function formatChurnLabel(label, mode) {
       if (mode === "weekly") {
         const [y, w] = label.split("-W");
-        const start = dayjs().year(Number(y)).isoWeek(Number(w)).startOf("isoWeek");
+        const start = dayjs().year(Number(y)).week(Number(w)).startOf("week");
         const end = start.add(6, "day");
 
         return `${start.date()}–${end.date()}<br>${shortMonths[start.month()]}, ${y}`;

@@ -191,25 +191,25 @@
   },
   "2026": {
     "South Africa": {
-      "cohortSize": 78,
+      "cohortSize": 79,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 7,
           "conversion_prev": 1,
-          "conversion_cohort": 0.08974358974358974,
+          "conversion_cohort": 0.08860759493670886,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 7,
           "conversion_prev": 0.4117647058823529,
-          "conversion_cohort": 0.08974358974358974,
+          "conversion_cohort": 0.08860759493670886,
           "drop": 10
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 78,
+          "count": 79,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -217,28 +217,28 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 55,
-          "conversion_prev": 0.7051282051282052,
-          "conversion_cohort": 0.7051282051282052,
-          "drop": 23
+          "conversion_prev": 0.6962025316455697,
+          "conversion_cohort": 0.6962025316455697,
+          "drop": 24
         },
         "1087110454": {
           "name": "Interview",
           "count": 3,
           "conversion_prev": 0.05454545454545454,
-          "conversion_cohort": 0.038461538461538464,
+          "conversion_cohort": 0.0379746835443038,
           "drop": 52
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 17,
           "conversion_prev": 5.666666666666667,
-          "conversion_cohort": 0.21794871794871795,
+          "conversion_cohort": 0.21518987341772153,
           "drop": -14
         }
       }
     },
     "United Kingdom + Other Countries": {
-      "cohortSize": 54,
+      "cohortSize": 58,
       "stages": {
         "36053576": {
           "name": "Member",
@@ -256,7 +256,7 @@
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 54,
+          "count": 58,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -264,28 +264,28 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 28,
-          "conversion_prev": 0.5185185185185185,
-          "conversion_cohort": 0.5185185185185185,
-          "drop": 26
+          "conversion_prev": 0.4827586206896552,
+          "conversion_cohort": 0.4827586206896552,
+          "drop": 30
         },
         "1087110454": {
           "name": "Interview",
           "count": 1,
           "conversion_prev": 0.03571428571428571,
-          "conversion_cohort": 0.018518518518518517,
+          "conversion_cohort": 0.017241379310344827,
           "drop": 27
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 3,
           "conversion_prev": 3,
-          "conversion_cohort": 0.05555555555555555,
+          "conversion_cohort": 0.05172413793103448,
           "drop": -2
         }
       }
     },
     "Jordan": {
-      "cohortSize": 35,
+      "cohortSize": 36,
       "stages": {
         "36053576": {
           "name": "Member",
@@ -303,7 +303,7 @@
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 35,
+          "count": 36,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -311,15 +311,15 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 18,
-          "conversion_prev": 0.5142857142857142,
-          "conversion_cohort": 0.5142857142857142,
-          "drop": 17
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.5,
+          "drop": 18
         },
         "1087110454": {
           "name": "Interview",
           "count": 7,
           "conversion_prev": 0.3888888888888889,
-          "conversion_cohort": 0.2,
+          "conversion_cohort": 0.19444444444444445,
           "drop": 11
         },
         "1087110456": {
@@ -381,82 +381,35 @@
   },
   "2025-W44": {
     "South Africa": {
-      "cohortSize": 8,
+      "cohortSize": 11,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 3,
           "conversion_prev": 1,
-          "conversion_cohort": 0.375,
+          "conversion_cohort": 0.2727272727272727,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 3,
-          "conversion_prev": 0.42857142857142855,
-          "conversion_cohort": 0.375,
+          "conversion_prev": 0.3333333333333333,
+          "conversion_cohort": 0.2727272727272727,
+          "drop": 6
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 11,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 7,
+          "conversion_prev": 0.6363636363636364,
+          "conversion_cohort": 0.6363636363636364,
           "drop": 4
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 8,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 5,
-          "conversion_prev": 0.625,
-          "conversion_cohort": 0.625,
-          "drop": 3
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 5
-        },
-        "1087110456": {
-          "name": "Offer Membership",
-          "count": 7,
-          "conversion_prev": 0,
-          "conversion_cohort": 0.875,
-          "drop": -7
-        }
-      }
-    },
-    "United Kingdom + Other Countries": {
-      "cohortSize": 12,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 3
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 12,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 7,
-          "conversion_prev": 0.5833333333333334,
-          "conversion_cohort": 0.5833333333333334,
-          "drop": 5
         },
         "1087110454": {
           "name": "Interview",
@@ -467,56 +420,103 @@
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 3,
+          "count": 9,
           "conversion_prev": 0,
-          "conversion_cohort": 0.25,
-          "drop": -3
+          "conversion_cohort": 0.8181818181818182,
+          "drop": -9
         }
       }
     },
-    "United Arab Emirates": {
-      "cohortSize": 5,
+    "United Kingdom + Other Countries": {
+      "cohortSize": 11,
       "stages": {
         "36053576": {
           "name": "Member",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.2,
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.2,
-          "drop": 0
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 2
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 5,
+          "count": 11,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 3,
-          "conversion_prev": 0.6,
-          "conversion_cohort": 0.6,
+          "count": 7,
+          "conversion_prev": 0.6363636363636364,
+          "conversion_cohort": 0.6363636363636364,
+          "drop": 4
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 7
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 2,
+          "conversion_prev": 0,
+          "conversion_cohort": 0.18181818181818182,
+          "drop": -2
+        }
+      }
+    },
+    "United Arab Emirates": {
+      "cohortSize": 6,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.3333333333333333,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.3333333333333333,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 6,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 4,
+          "conversion_prev": 0.6666666666666666,
+          "conversion_cohort": 0.6666666666666666,
           "drop": 2
         },
         "1087110454": {
           "name": "Interview",
-          "count": 1,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.2,
+          "count": 2,
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.3333333333333333,
           "drop": 2
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 1,
+          "count": 2,
           "conversion_prev": 1,
-          "conversion_cohort": 0.2,
+          "conversion_cohort": 0.3333333333333333,
           "drop": 0
         }
       }
@@ -667,49 +667,49 @@
   },
   "2026-W02": {
     "South Africa": {
-      "cohortSize": 5,
+      "cohortSize": 7,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.2,
+          "conversion_cohort": 0.14285714285714285,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 1,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.2,
-          "drop": 2
+          "conversion_prev": 0.25,
+          "conversion_cohort": 0.14285714285714285,
+          "drop": 3
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 5,
+          "count": 7,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 3,
-          "conversion_prev": 0.6,
-          "conversion_cohort": 0.6,
+          "count": 5,
+          "conversion_prev": 0.7142857142857143,
+          "conversion_cohort": 0.7142857142857143,
           "drop": 2
         },
         "1087110454": {
           "name": "Interview",
           "count": 1,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.2,
-          "drop": 2
+          "conversion_prev": 0.2,
+          "conversion_cohort": 0.14285714285714285,
+          "drop": 4
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 3,
-          "conversion_prev": 3,
-          "conversion_cohort": 0.6,
-          "drop": -2
+          "count": 4,
+          "conversion_prev": 4,
+          "conversion_cohort": 0.5714285714285714,
+          "drop": -3
         }
       }
     },
@@ -808,32 +808,32 @@
       }
     },
     "United Arab Emirates": {
-      "cohortSize": 2,
+      "cohortSize": 1,
       "stages": {
         "36053576": {
           "name": "Member",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.5,
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.5,
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
           "drop": 0
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 2,
+          "count": 1,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 2,
+          "count": 1,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -843,14 +843,14 @@
           "count": 0,
           "conversion_prev": 0,
           "conversion_cohort": 0,
-          "drop": 2
+          "drop": 1
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 1,
+          "count": 0,
           "conversion_prev": 0,
-          "conversion_cohort": 0.5,
-          "drop": -1
+          "conversion_cohort": 0,
+          "drop": 0
         }
       }
     }
@@ -904,7 +904,7 @@
       }
     },
     "United Kingdom + Other Countries": {
-      "cohortSize": 54,
+      "cohortSize": 55,
       "stages": {
         "36053576": {
           "name": "Member",
@@ -922,7 +922,7 @@
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 54,
+          "count": 55,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -930,22 +930,22 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 28,
-          "conversion_prev": 0.5185185185185185,
-          "conversion_cohort": 0.5185185185185185,
-          "drop": 26
+          "conversion_prev": 0.509090909090909,
+          "conversion_cohort": 0.509090909090909,
+          "drop": 27
         },
         "1087110454": {
           "name": "Interview",
           "count": 1,
           "conversion_prev": 0.03571428571428571,
-          "conversion_cohort": 0.018518518518518517,
+          "conversion_cohort": 0.01818181818181818,
           "drop": 27
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 3,
           "conversion_prev": 3,
-          "conversion_cohort": 0.05555555555555555,
+          "conversion_cohort": 0.05454545454545454,
           "drop": -2
         }
       }
@@ -1094,48 +1094,48 @@
       }
     },
     "United Kingdom + Other Countries": {
-      "cohortSize": 10,
+      "cohortSize": 11,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.1,
+          "conversion_cohort": 0.09090909090909091,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 1,
-          "conversion_prev": 0.25,
-          "conversion_cohort": 0.1,
-          "drop": 3
+          "conversion_prev": 0.2,
+          "conversion_cohort": 0.09090909090909091,
+          "drop": 4
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 10,
+          "count": 11,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 7,
-          "conversion_prev": 0.7,
-          "conversion_cohort": 0.7,
+          "count": 8,
+          "conversion_prev": 0.7272727272727273,
+          "conversion_cohort": 0.7272727272727273,
           "drop": 3
         },
         "1087110454": {
           "name": "Interview",
-          "count": 4,
-          "conversion_prev": 0.5714285714285714,
-          "conversion_cohort": 0.4,
+          "count": 5,
+          "conversion_prev": 0.625,
+          "conversion_cohort": 0.45454545454545453,
           "drop": 3
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 4,
+          "count": 5,
           "conversion_prev": 1,
-          "conversion_cohort": 0.4,
+          "conversion_cohort": 0.45454545454545453,
           "drop": 0
         }
       }
@@ -1333,72 +1333,25 @@
   },
   "2025-W47": {
     "South Africa": {
-      "cohortSize": 10,
+      "cohortSize": 12,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.1,
+          "conversion_cohort": 0.08333333333333333,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 1,
-          "conversion_prev": 0.14285714285714285,
-          "conversion_cohort": 0.1,
-          "drop": 6
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 10,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 7,
-          "conversion_prev": 0.7,
-          "conversion_cohort": 0.7,
-          "drop": 3
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
+          "conversion_prev": 0.125,
+          "conversion_cohort": 0.08333333333333333,
           "drop": 7
         },
-        "1087110456": {
-          "name": "Offer Membership",
-          "count": 7,
-          "conversion_prev": 0,
-          "conversion_cohort": 0.7,
-          "drop": -7
-        }
-      }
-    },
-    "United Kingdom + Other Countries": {
-      "cohortSize": 18,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 2,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.1111111111111111,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 2,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.1111111111111111,
-          "drop": 4
-        },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 18,
+          "count": 12,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -1406,23 +1359,70 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 9,
-          "conversion_prev": 0.5,
-          "conversion_cohort": 0.5,
+          "conversion_prev": 0.75,
+          "conversion_cohort": 0.75,
+          "drop": 3
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
           "drop": 9
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 8,
+          "conversion_prev": 0,
+          "conversion_cohort": 0.6666666666666666,
+          "drop": -8
+        }
+      }
+    },
+    "United Kingdom + Other Countries": {
+      "cohortSize": 19,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.10526315789473684,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 2,
+          "conversion_prev": 0.4,
+          "conversion_cohort": 0.10526315789473684,
+          "drop": 3
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 19,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 9,
+          "conversion_prev": 0.47368421052631576,
+          "conversion_cohort": 0.47368421052631576,
+          "drop": 10
         },
         "1087110454": {
           "name": "Interview",
           "count": 2,
           "conversion_prev": 0.2222222222222222,
-          "conversion_cohort": 0.1111111111111111,
+          "conversion_cohort": 0.10526315789473684,
           "drop": 7
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 6,
-          "conversion_prev": 3,
-          "conversion_cohort": 0.3333333333333333,
-          "drop": -4
+          "count": 5,
+          "conversion_prev": 2.5,
+          "conversion_cohort": 0.2631578947368421,
+          "drop": -3
         }
       }
     },
@@ -1762,7 +1762,7 @@
       }
     },
     "United Kingdom + Other Countries": {
-      "cohortSize": 11,
+      "cohortSize": 10,
       "stages": {
         "36053576": {
           "name": "Member",
@@ -1776,34 +1776,34 @@
           "count": 0,
           "conversion_prev": 0,
           "conversion_cohort": 0,
-          "drop": 1
+          "drop": 0
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 11,
+          "count": 10,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 6,
-          "conversion_prev": 0.5454545454545454,
-          "conversion_cohort": 0.5454545454545454,
+          "count": 5,
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.5,
           "drop": 5
         },
         "1087110454": {
           "name": "Interview",
-          "count": 2,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.18181818181818182,
+          "count": 1,
+          "conversion_prev": 0.2,
+          "conversion_cohort": 0.1,
           "drop": 4
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 1,
-          "conversion_prev": 0.5,
-          "conversion_cohort": 0.09090909090909091,
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
           "drop": 1
         }
       }
@@ -1858,48 +1858,48 @@
   },
   "2026-W04": {
     "South Africa": {
-      "cohortSize": 55,
+      "cohortSize": 54,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 2,
           "conversion_prev": 1,
-          "conversion_cohort": 0.03636363636363636,
+          "conversion_cohort": 0.037037037037037035,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 2,
           "conversion_prev": 0.4,
-          "conversion_cohort": 0.03636363636363636,
+          "conversion_cohort": 0.037037037037037035,
           "drop": 3
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 55,
+          "count": 54,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 38,
-          "conversion_prev": 0.6909090909090909,
-          "conversion_cohort": 0.6909090909090909,
+          "count": 37,
+          "conversion_prev": 0.6851851851851852,
+          "conversion_cohort": 0.6851851851851852,
           "drop": 17
         },
         "1087110454": {
           "name": "Interview",
           "count": 2,
-          "conversion_prev": 0.05263157894736842,
-          "conversion_cohort": 0.03636363636363636,
-          "drop": 36
+          "conversion_prev": 0.05405405405405406,
+          "conversion_cohort": 0.037037037037037035,
+          "drop": 35
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 5,
           "conversion_prev": 2.5,
-          "conversion_cohort": 0.09090909090909091,
+          "conversion_cohort": 0.09259259259259259,
           "drop": -3
         }
       }
@@ -1930,17 +1930,17 @@
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 4,
-          "conversion_prev": 0.4444444444444444,
-          "conversion_cohort": 0.4444444444444444,
-          "drop": 5
+          "count": 5,
+          "conversion_prev": 0.5555555555555556,
+          "conversion_cohort": 0.5555555555555556,
+          "drop": 4
         },
         "1087110454": {
           "name": "Interview",
           "count": 0,
           "conversion_prev": 0,
           "conversion_cohort": 0,
-          "drop": 4
+          "drop": 5
         },
         "1087110456": {
           "name": "Offer Membership",
@@ -1952,7 +1952,7 @@
       }
     },
     "Jordan": {
-      "cohortSize": 4,
+      "cohortSize": 5,
       "stages": {
         "36053576": {
           "name": "Member",
@@ -1970,7 +1970,7 @@
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 4,
+          "count": 5,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -1978,9 +1978,9 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 2,
-          "conversion_prev": 0.5,
-          "conversion_cohort": 0.5,
-          "drop": 2
+          "conversion_prev": 0.4,
+          "conversion_cohort": 0.4,
+          "drop": 3
         },
         "1087110454": {
           "name": "Interview",
@@ -2107,9 +2107,9 @@
         "1086814890": {
           "name": "Paid",
           "count": 1,
-          "conversion_prev": 0.5,
+          "conversion_prev": 0.3333333333333333,
           "conversion_cohort": 0.2,
-          "drop": 1
+          "drop": 2
         },
         "1087110450": {
           "name": "Joined Waitlist",
@@ -2127,16 +2127,16 @@
         },
         "1087110454": {
           "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 5
+          "count": 1,
+          "conversion_prev": 0.2,
+          "conversion_cohort": 0.2,
+          "drop": 4
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 2,
-          "conversion_prev": 0,
-          "conversion_cohort": 0.4,
+          "count": 3,
+          "conversion_prev": 3,
+          "conversion_cohort": 0.6,
           "drop": -2
         }
       }
@@ -2334,95 +2334,95 @@
   },
   "2025-W42": {
     "United Kingdom + Other Countries": {
-      "cohortSize": 19,
+      "cohortSize": 18,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 2,
           "conversion_prev": 1,
-          "conversion_cohort": 0.10526315789473684,
+          "conversion_cohort": 0.1111111111111111,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 2,
-          "conversion_prev": 0.25,
-          "conversion_cohort": 0.10526315789473684,
-          "drop": 6
+          "conversion_prev": 0.2857142857142857,
+          "conversion_cohort": 0.1111111111111111,
+          "drop": 5
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 19,
+          "count": 18,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 13,
-          "conversion_prev": 0.6842105263157895,
-          "conversion_cohort": 0.6842105263157895,
+          "count": 12,
+          "conversion_prev": 0.6666666666666666,
+          "conversion_cohort": 0.6666666666666666,
           "drop": 6
         },
         "1087110454": {
           "name": "Interview",
-          "count": 2,
-          "conversion_prev": 0.15384615384615385,
-          "conversion_cohort": 0.10526315789473684,
+          "count": 1,
+          "conversion_prev": 0.08333333333333333,
+          "conversion_cohort": 0.05555555555555555,
           "drop": 11
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 8,
-          "conversion_prev": 4,
-          "conversion_cohort": 0.42105263157894735,
+          "count": 7,
+          "conversion_prev": 7,
+          "conversion_cohort": 0.3888888888888889,
           "drop": -6
         }
       }
     },
     "South Africa": {
-      "cohortSize": 9,
+      "cohortSize": 8,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 3,
           "conversion_prev": 1,
-          "conversion_cohort": 0.3333333333333333,
+          "conversion_cohort": 0.375,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 3,
           "conversion_prev": 0.5,
-          "conversion_cohort": 0.3333333333333333,
+          "conversion_cohort": 0.375,
           "drop": 3
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 9,
+          "count": 8,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 8,
-          "conversion_prev": 0.8888888888888888,
-          "conversion_cohort": 0.8888888888888888,
+          "count": 7,
+          "conversion_prev": 0.875,
+          "conversion_cohort": 0.875,
           "drop": 1
         },
         "1087110454": {
           "name": "Interview",
           "count": 1,
-          "conversion_prev": 0.125,
-          "conversion_cohort": 0.1111111111111111,
-          "drop": 7
+          "conversion_prev": 0.14285714285714285,
+          "conversion_cohort": 0.125,
+          "drop": 6
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 6,
           "conversion_prev": 6,
-          "conversion_cohort": 0.6666666666666666,
+          "conversion_cohort": 0.75,
           "drop": -5
         }
       }
@@ -2477,25 +2477,25 @@
   },
   "2025-W32": {
     "South Africa": {
-      "cohortSize": 6,
+      "cohortSize": 5,
       "stages": {
         "36053576": {
           "name": "Member",
-          "count": 4,
+          "count": 3,
           "conversion_prev": 1,
-          "conversion_cohort": 0.6666666666666666,
+          "conversion_cohort": 0.6,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
-          "count": 4,
-          "conversion_prev": 0.8,
-          "conversion_cohort": 0.6666666666666666,
+          "count": 3,
+          "conversion_prev": 0.75,
+          "conversion_cohort": 0.6,
           "drop": 1
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 6,
+          "count": 5,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -2503,23 +2503,23 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 4,
-          "conversion_prev": 0.6666666666666666,
-          "conversion_cohort": 0.6666666666666666,
-          "drop": 2
+          "conversion_prev": 0.8,
+          "conversion_cohort": 0.8,
+          "drop": 1
         },
         "1087110454": {
           "name": "Interview",
           "count": 3,
           "conversion_prev": 0.75,
-          "conversion_cohort": 0.5,
+          "conversion_cohort": 0.6,
           "drop": 1
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 5,
-          "conversion_prev": 1.6666666666666667,
-          "conversion_cohort": 0.8333333333333334,
-          "drop": -2
+          "count": 4,
+          "conversion_prev": 1.3333333333333333,
+          "conversion_cohort": 0.8,
+          "drop": -1
         }
       }
     },
@@ -2624,17 +2624,17 @@
       "stages": {
         "36053576": {
           "name": "Member",
-          "count": 2,
+          "count": 3,
           "conversion_prev": 1,
-          "conversion_cohort": 0.25,
+          "conversion_cohort": 0.375,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
-          "count": 2,
-          "conversion_prev": 0.5,
-          "conversion_cohort": 0.25,
-          "drop": 2
+          "count": 3,
+          "conversion_prev": 0.75,
+          "conversion_cohort": 0.375,
+          "drop": 1
         },
         "1087110450": {
           "name": "Joined Waitlist",
@@ -2645,24 +2645,24 @@
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 6,
-          "conversion_prev": 0.75,
-          "conversion_cohort": 0.75,
-          "drop": 2
+          "count": 5,
+          "conversion_prev": 0.625,
+          "conversion_cohort": 0.625,
+          "drop": 3
         },
         "1087110454": {
           "name": "Interview",
-          "count": 2,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.25,
+          "count": 1,
+          "conversion_prev": 0.2,
+          "conversion_cohort": 0.125,
           "drop": 4
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 4,
-          "conversion_prev": 2,
+          "conversion_prev": 4,
           "conversion_cohort": 0.5,
-          "drop": -2
+          "drop": -3
         }
       }
     },
@@ -2763,32 +2763,32 @@
   },
   "2025-W35": {
     "South Africa": {
-      "cohortSize": 6,
+      "cohortSize": 7,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 2,
           "conversion_prev": 1,
-          "conversion_cohort": 0.3333333333333333,
+          "conversion_cohort": 0.2857142857142857,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 2,
           "conversion_prev": 0.5,
-          "conversion_cohort": 0.3333333333333333,
+          "conversion_cohort": 0.2857142857142857,
           "drop": 2
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 6,
+          "count": 7,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 6,
+          "count": 7,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -2798,60 +2798,60 @@
           "count": 0,
           "conversion_prev": 0,
           "conversion_cohort": 0,
-          "drop": 6
+          "drop": 7
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 4,
           "conversion_prev": 0,
-          "conversion_cohort": 0.6666666666666666,
+          "conversion_cohort": 0.5714285714285714,
           "drop": -4
         }
       }
     },
     "United Kingdom + Other Countries": {
-      "cohortSize": 9,
+      "cohortSize": 8,
       "stages": {
         "36053576": {
           "name": "Member",
-          "count": 2,
+          "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.2222222222222222,
+          "conversion_cohort": 0.125,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
-          "count": 2,
+          "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.2222222222222222,
+          "conversion_cohort": 0.125,
           "drop": 0
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 9,
+          "count": 8,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 4,
-          "conversion_prev": 0.4444444444444444,
-          "conversion_cohort": 0.4444444444444444,
+          "count": 3,
+          "conversion_prev": 0.375,
+          "conversion_cohort": 0.375,
           "drop": 5
         },
         "1087110454": {
           "name": "Interview",
-          "count": 4,
+          "count": 3,
           "conversion_prev": 1,
-          "conversion_cohort": 0.4444444444444444,
+          "conversion_cohort": 0.375,
           "drop": 0
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 2,
-          "conversion_prev": 0.5,
-          "conversion_cohort": 0.2222222222222222,
+          "count": 1,
+          "conversion_prev": 0.3333333333333333,
+          "conversion_cohort": 0.125,
           "drop": 2
         }
       }
@@ -2905,6 +2905,53 @@
     }
   },
   "2025-W36": {
+    "United Kingdom + Other Countries": {
+      "cohortSize": 5,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.4,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.4,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 5,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 2,
+          "conversion_prev": 0.4,
+          "conversion_cohort": 0.4,
+          "drop": 3
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 1,
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.2,
+          "drop": 1
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 2,
+          "conversion_prev": 2,
+          "conversion_cohort": 0.4,
+          "drop": -1
+        }
+      }
+    },
     "United Arab Emirates": {
       "cohortSize": 3,
       "stages": {
@@ -2953,25 +3000,25 @@
       }
     },
     "South Africa": {
-      "cohortSize": 4,
+      "cohortSize": 3,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.25,
+          "conversion_cohort": 0.3333333333333333,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.25,
+          "conversion_cohort": 0.3333333333333333,
           "drop": 0
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 4,
+          "count": 3,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -2979,69 +3026,22 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 2,
-          "conversion_prev": 0.5,
-          "conversion_cohort": 0.5,
-          "drop": 2
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 2
-        },
-        "1087110456": {
-          "name": "Offer Membership",
-          "count": 1,
-          "conversion_prev": 0,
-          "conversion_cohort": 0.25,
-          "drop": -1
-        }
-      }
-    },
-    "United Kingdom + Other Countries": {
-      "cohortSize": 5,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.2,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.2,
-          "drop": 0
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 5,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 1,
-          "conversion_prev": 0.2,
-          "conversion_cohort": 0.2,
-          "drop": 4
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
+          "conversion_prev": 0.6666666666666666,
+          "conversion_cohort": 0.6666666666666666,
           "drop": 1
         },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 2
+        },
         "1087110456": {
           "name": "Offer Membership",
           "count": 1,
           "conversion_prev": 0,
-          "conversion_cohort": 0.2,
+          "conversion_cohort": 0.3333333333333333,
           "drop": -1
         }
       }
@@ -3192,25 +3192,25 @@
   },
   "2025-W41": {
     "United Kingdom + Other Countries": {
-      "cohortSize": 21,
+      "cohortSize": 22,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.047619047619047616,
+          "conversion_cohort": 0.045454545454545456,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 1,
           "conversion_prev": 0.16666666666666666,
-          "conversion_cohort": 0.047619047619047616,
+          "conversion_cohort": 0.045454545454545456,
           "drop": 5
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 21,
+          "count": 22,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -3218,9 +3218,9 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 12,
-          "conversion_prev": 0.5714285714285714,
-          "conversion_cohort": 0.5714285714285714,
-          "drop": 9
+          "conversion_prev": 0.5454545454545454,
+          "conversion_cohort": 0.5454545454545454,
+          "drop": 10
         },
         "1087110454": {
           "name": "Interview",
@@ -3233,74 +3233,74 @@
           "name": "Offer Membership",
           "count": 6,
           "conversion_prev": 0,
-          "conversion_cohort": 0.2857142857142857,
+          "conversion_cohort": 0.2727272727272727,
           "drop": -6
         }
       }
     },
-    "United Arab Emirates": {
-      "cohortSize": 3,
+    "South Africa": {
+      "cohortSize": 5,
       "stages": {
         "36053576": {
           "name": "Member",
-          "count": 2,
+          "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.6666666666666666,
+          "conversion_cohort": 0.2,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
-          "count": 2,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.6666666666666666,
-          "drop": 0
+          "count": 1,
+          "conversion_prev": 0.3333333333333333,
+          "conversion_cohort": 0.2,
+          "drop": 2
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 3,
+          "count": 5,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 3,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
+          "count": 4,
+          "conversion_prev": 0.8,
+          "conversion_cohort": 0.8,
+          "drop": 1
         },
         "1087110454": {
           "name": "Interview",
-          "count": 2,
-          "conversion_prev": 0.6666666666666666,
-          "conversion_cohort": 0.6666666666666666,
-          "drop": 1
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 4
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 2,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.6666666666666666,
-          "drop": 0
+          "count": 3,
+          "conversion_prev": 0,
+          "conversion_cohort": 0.6,
+          "drop": -3
         }
       }
     },
-    "South Africa": {
+    "United Arab Emirates": {
       "cohortSize": 4,
       "stages": {
         "36053576": {
           "name": "Member",
-          "count": 1,
+          "count": 3,
           "conversion_prev": 1,
-          "conversion_cohort": 0.25,
+          "conversion_cohort": 0.75,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
-          "count": 1,
-          "conversion_prev": 0.5,
-          "conversion_cohort": 0.25,
-          "drop": 1
+          "count": 3,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.75,
+          "drop": 0
         },
         "1087110450": {
           "name": "Joined Waitlist",
@@ -3311,96 +3311,49 @@
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 3,
-          "conversion_prev": 0.75,
-          "conversion_cohort": 0.75,
-          "drop": 1
+          "count": 4,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
         },
         "1087110454": {
           "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 3
+          "count": 2,
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.5,
+          "drop": 2
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 2,
-          "conversion_prev": 0,
-          "conversion_cohort": 0.5,
-          "drop": -2
+          "count": 3,
+          "conversion_prev": 1.5,
+          "conversion_cohort": 0.75,
+          "drop": -1
         }
       }
     }
   },
   "2025-W37": {
-    "United Kingdom + Other Countries": {
-      "cohortSize": 18,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 2,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.1111111111111111,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 2,
-          "conversion_prev": 0.4,
-          "conversion_cohort": 0.1111111111111111,
-          "drop": 3
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 18,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 15,
-          "conversion_prev": 0.8333333333333334,
-          "conversion_cohort": 0.8333333333333334,
-          "drop": 3
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 2,
-          "conversion_prev": 0.13333333333333333,
-          "conversion_cohort": 0.1111111111111111,
-          "drop": 13
-        },
-        "1087110456": {
-          "name": "Offer Membership",
-          "count": 5,
-          "conversion_prev": 2.5,
-          "conversion_cohort": 0.2777777777777778,
-          "drop": -3
-        }
-      }
-    },
     "South Africa": {
-      "cohortSize": 4,
+      "cohortSize": 5,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 3,
           "conversion_prev": 1,
-          "conversion_cohort": 0.75,
+          "conversion_cohort": 0.6,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 3,
           "conversion_prev": 1,
-          "conversion_cohort": 0.75,
+          "conversion_cohort": 0.6,
           "drop": 0
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 4,
+          "count": 5,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -3408,9 +3361,9 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 1,
-          "conversion_prev": 0.25,
-          "conversion_cohort": 0.25,
-          "drop": 3
+          "conversion_prev": 0.2,
+          "conversion_cohort": 0.2,
+          "drop": 4
         },
         "1087110454": {
           "name": "Interview",
@@ -3423,7 +3376,54 @@
           "name": "Offer Membership",
           "count": 3,
           "conversion_prev": 0,
-          "conversion_cohort": 0.75,
+          "conversion_cohort": 0.6,
+          "drop": -3
+        }
+      }
+    },
+    "United Kingdom + Other Countries": {
+      "cohortSize": 17,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.11764705882352941,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 2,
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.11764705882352941,
+          "drop": 2
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 17,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 13,
+          "conversion_prev": 0.7647058823529411,
+          "conversion_cohort": 0.7647058823529411,
+          "drop": 4
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 1,
+          "conversion_prev": 0.07692307692307693,
+          "conversion_cohort": 0.058823529411764705,
+          "drop": 12
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 4,
+          "conversion_prev": 4,
+          "conversion_cohort": 0.23529411764705882,
           "drop": -3
         }
       }
@@ -3431,101 +3431,148 @@
   },
   "2025-W38": {
     "United Kingdom + Other Countries": {
-      "cohortSize": 13,
+      "cohortSize": 15,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.07692307692307693,
+          "conversion_cohort": 0.06666666666666667,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 1,
-          "conversion_prev": 0.5,
-          "conversion_cohort": 0.07692307692307693,
-          "drop": 1
+          "conversion_prev": 0.3333333333333333,
+          "conversion_cohort": 0.06666666666666667,
+          "drop": 2
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 13,
+          "count": 15,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 10,
-          "conversion_prev": 0.7692307692307693,
-          "conversion_cohort": 0.7692307692307693,
+          "count": 12,
+          "conversion_prev": 0.8,
+          "conversion_cohort": 0.8,
           "drop": 3
         },
         "1087110454": {
           "name": "Interview",
-          "count": 1,
-          "conversion_prev": 0.1,
-          "conversion_cohort": 0.07692307692307693,
-          "drop": 9
+          "count": 2,
+          "conversion_prev": 0.16666666666666666,
+          "conversion_cohort": 0.13333333333333333,
+          "drop": 10
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 2,
-          "conversion_prev": 2,
-          "conversion_cohort": 0.15384615384615385,
+          "count": 3,
+          "conversion_prev": 1.5,
+          "conversion_cohort": 0.2,
           "drop": -1
         }
       }
     },
     "United Arab Emirates": {
-      "cohortSize": 3,
+      "cohortSize": 1,
       "stages": {
         "36053576": {
           "name": "Member",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.3333333333333333,
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.3333333333333333,
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
           "drop": 0
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 3,
+          "count": 1,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 3,
+          "count": 1,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110454": {
           "name": "Interview",
-          "count": 1,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.3333333333333333,
-          "drop": 2
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 1
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.3333333333333333,
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
           "drop": 0
         }
       }
     }
   },
   "2025-W39": {
+    "United Arab Emirates": {
+      "cohortSize": 4,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.5,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.5,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 4,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 4,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 1,
+          "conversion_prev": 0.25,
+          "conversion_cohort": 0.25,
+          "drop": 3
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 2,
+          "conversion_prev": 2,
+          "conversion_cohort": 0.5,
+          "drop": -1
+        }
+      }
+    },
     "United Kingdom + Other Countries": {
       "cohortSize": 20,
       "stages": {
@@ -3573,80 +3620,33 @@
         }
       }
     },
-    "United Arab Emirates": {
-      "cohortSize": 2,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.5,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.5,
-          "drop": 0
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 2,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 2,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 2
-        },
-        "1087110456": {
-          "name": "Offer Membership",
-          "count": 1,
-          "conversion_prev": 0,
-          "conversion_cohort": 0.5,
-          "drop": -1
-        }
-      }
-    },
     "South Africa": {
-      "cohortSize": 2,
+      "cohortSize": 1,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.5,
+          "conversion_cohort": 1,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.5,
+          "conversion_cohort": 1,
           "drop": 0
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 2,
+          "count": 1,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 2,
+          "count": 1,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -3656,13 +3656,13 @@
           "count": 0,
           "conversion_prev": 0,
           "conversion_cohort": 0,
-          "drop": 2
+          "drop": 1
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 1,
           "conversion_prev": 0,
-          "conversion_cohort": 0.5,
+          "conversion_cohort": 1,
           "drop": -1
         }
       }
@@ -3764,47 +3764,47 @@
       }
     },
     "South Africa": {
-      "cohortSize": 3,
+      "cohortSize": 2,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.3333333333333333,
+          "conversion_cohort": 0.5,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 1,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.3333333333333333,
-          "drop": 2
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.5,
+          "drop": 1
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 3,
+          "count": 2,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 3,
+          "count": 2,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110454": {
           "name": "Interview",
-          "count": 1,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.3333333333333333,
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
           "drop": 2
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 3,
-          "conversion_prev": 3,
+          "count": 2,
+          "conversion_prev": 0,
           "conversion_cohort": 1,
           "drop": -2
         }
@@ -4002,100 +4002,6 @@
     }
   },
   "2025-W40": {
-    "United Kingdom + Other Countries": {
-      "cohortSize": 15,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 3,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.2,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 3,
-          "conversion_prev": 0.6,
-          "conversion_cohort": 0.2,
-          "drop": 2
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 15,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 8,
-          "conversion_prev": 0.5333333333333333,
-          "conversion_cohort": 0.5333333333333333,
-          "drop": 7
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 1,
-          "conversion_prev": 0.125,
-          "conversion_cohort": 0.06666666666666667,
-          "drop": 7
-        },
-        "1087110456": {
-          "name": "Offer Membership",
-          "count": 5,
-          "conversion_prev": 5,
-          "conversion_cohort": 0.3333333333333333,
-          "drop": -4
-        }
-      }
-    },
-    "United Arab Emirates": {
-      "cohortSize": 3,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 2,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.6666666666666666,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 2,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.6666666666666666,
-          "drop": 0
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 3,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 3,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 1,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.3333333333333333,
-          "drop": 2
-        },
-        "1087110456": {
-          "name": "Offer Membership",
-          "count": 2,
-          "conversion_prev": 2,
-          "conversion_cohort": 0.6666666666666666,
-          "drop": -1
-        }
-      }
-    },
     "South Africa": {
       "cohortSize": 2,
       "stages": {
@@ -4111,7 +4017,7 @@
           "count": 0,
           "conversion_prev": 0,
           "conversion_cohort": 0,
-          "drop": 2
+          "drop": 1
         },
         "1087110450": {
           "name": "Joined Waitlist",
@@ -4136,35 +4042,33 @@
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 2,
+          "count": 1,
           "conversion_prev": 0,
-          "conversion_cohort": 1,
-          "drop": -2
+          "conversion_cohort": 0.5,
+          "drop": -1
         }
       }
-    }
-  },
-  "2025-W46": {
+    },
     "United Kingdom + Other Countries": {
-      "cohortSize": 17,
+      "cohortSize": 13,
       "stages": {
         "36053576": {
           "name": "Member",
-          "count": 2,
+          "count": 3,
           "conversion_prev": 1,
-          "conversion_cohort": 0.11764705882352941,
+          "conversion_cohort": 0.23076923076923078,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
-          "count": 2,
-          "conversion_prev": 0.4,
-          "conversion_cohort": 0.11764705882352941,
-          "drop": 3
+          "count": 3,
+          "conversion_prev": 0.6,
+          "conversion_cohort": 0.23076923076923078,
+          "drop": 2
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 17,
+          "count": 13,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -4172,55 +4076,151 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 7,
-          "conversion_prev": 0.4117647058823529,
-          "conversion_cohort": 0.4117647058823529,
-          "drop": 10
+          "conversion_prev": 0.5384615384615384,
+          "conversion_cohort": 0.5384615384615384,
+          "drop": 6
         },
         "1087110454": {
           "name": "Interview",
-          "count": 2,
-          "conversion_prev": 0.2857142857142857,
-          "conversion_cohort": 0.11764705882352941,
-          "drop": 5
+          "count": 1,
+          "conversion_prev": 0.14285714285714285,
+          "conversion_cohort": 0.07692307692307693,
+          "drop": 6
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 5,
-          "conversion_prev": 2.5,
-          "conversion_cohort": 0.29411764705882354,
-          "drop": -3
+          "conversion_prev": 5,
+          "conversion_cohort": 0.38461538461538464,
+          "drop": -4
         }
       }
     },
-    "South Africa": {
-      "cohortSize": 11,
+    "United Arab Emirates": {
+      "cohortSize": 2,
       "stages": {
         "36053576": {
           "name": "Member",
-          "count": 3,
+          "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.2727272727272727,
+          "conversion_cohort": 0.5,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
-          "count": 3,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.2727272727272727,
-          "drop": 6
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.5,
+          "drop": 0
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 11,
+          "count": 2,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 1,
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.5,
+          "drop": 1
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.5,
+          "drop": 0
+        }
+      }
+    }
+  },
+  "2025-W46": {
+    "United Kingdom + Other Countries": {
+      "cohortSize": 16,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.125,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 2,
+          "conversion_prev": 0.4,
+          "conversion_cohort": 0.125,
+          "drop": 3
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 16,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 7,
+          "conversion_prev": 0.4375,
+          "conversion_cohort": 0.4375,
+          "drop": 9
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 2,
+          "conversion_prev": 0.2857142857142857,
+          "conversion_cohort": 0.125,
+          "drop": 5
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 5,
+          "conversion_prev": 2.5,
+          "conversion_cohort": 0.3125,
+          "drop": -3
+        }
+      }
+    },
+    "South Africa": {
+      "cohortSize": 9,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 3,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.3333333333333333,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 3,
+          "conversion_prev": 0.375,
+          "conversion_cohort": 0.3333333333333333,
+          "drop": 5
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
           "count": 9,
-          "conversion_prev": 0.8181818181818182,
-          "conversion_cohort": 0.8181818181818182,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 7,
+          "conversion_prev": 0.7777777777777778,
+          "conversion_cohort": 0.7777777777777778,
           "drop": 2
         },
         "1087110454": {
@@ -4228,14 +4228,14 @@
           "count": 0,
           "conversion_prev": 0,
           "conversion_cohort": 0,
-          "drop": 9
+          "drop": 7
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 9,
+          "count": 8,
           "conversion_prev": 0,
-          "conversion_cohort": 0.8181818181818182,
-          "drop": -9
+          "conversion_cohort": 0.8888888888888888,
+          "drop": -8
         }
       }
     },
@@ -4289,72 +4289,25 @@
   },
   "2025-W43": {
     "United Kingdom + Other Countries": {
-      "cohortSize": 12,
+      "cohortSize": 13,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.08333333333333333,
+          "conversion_cohort": 0.07692307692307693,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.08333333333333333,
-          "drop": 0
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 12,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 6,
           "conversion_prev": 0.5,
-          "conversion_cohort": 0.5,
-          "drop": 6
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 6
-        },
-        "1087110456": {
-          "name": "Offer Membership",
-          "count": 1,
-          "conversion_prev": 0,
-          "conversion_cohort": 0.08333333333333333,
-          "drop": -1
-        }
-      }
-    },
-    "South Africa": {
-      "cohortSize": 9,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 2,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.2222222222222222,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 2,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.2222222222222222,
-          "drop": 4
+          "conversion_cohort": 0.07692307692307693,
+          "drop": 1
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 9,
+          "count": 13,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -4362,75 +4315,169 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 7,
-          "conversion_prev": 0.7777777777777778,
-          "conversion_cohort": 0.7777777777777778,
-          "drop": 2
+          "conversion_prev": 0.5384615384615384,
+          "conversion_cohort": 0.5384615384615384,
+          "drop": 6
         },
         "1087110454": {
           "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 7
+          "count": 1,
+          "conversion_prev": 0.14285714285714285,
+          "conversion_cohort": 0.07692307692307693,
+          "drop": 6
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 6,
-          "conversion_prev": 0,
-          "conversion_cohort": 0.6666666666666666,
-          "drop": -6
+          "count": 2,
+          "conversion_prev": 2,
+          "conversion_cohort": 0.15384615384615385,
+          "drop": -1
         }
       }
     },
-    "United Arab Emirates": {
-      "cohortSize": 2,
+    "South Africa": {
+      "cohortSize": 7,
       "stages": {
         "36053576": {
           "name": "Member",
-          "count": 1,
+          "count": 2,
           "conversion_prev": 1,
-          "conversion_cohort": 0.5,
+          "conversion_cohort": 0.2857142857142857,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.5,
-          "drop": 0
+          "count": 2,
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.2857142857142857,
+          "drop": 2
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 2,
+          "count": 7,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 1,
-          "conversion_prev": 0.5,
-          "conversion_cohort": 0.5,
+          "count": 6,
+          "conversion_prev": 0.8571428571428571,
+          "conversion_cohort": 0.8571428571428571,
           "drop": 1
         },
         "1087110454": {
           "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 6
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 4,
+          "conversion_prev": 0,
+          "conversion_cohort": 0.5714285714285714,
+          "drop": -4
+        }
+      }
+    },
+    "United Arab Emirates": {
+      "cohortSize": 1,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.5,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 1
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
           "drop": 0
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.5,
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
           "drop": 0
         }
       }
     }
   },
   "2025-W45": {
+    "United Kingdom + Other Countries": {
+      "cohortSize": 11,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 1
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 11,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 2,
+          "conversion_prev": 0.18181818181818182,
+          "conversion_cohort": 0.18181818181818182,
+          "drop": 9
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 2
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 1,
+          "conversion_prev": 0,
+          "conversion_cohort": 0.09090909090909091,
+          "drop": -1
+        }
+      }
+    },
     "South Africa": {
       "cohortSize": 12,
       "stages": {
@@ -4475,53 +4522,6 @@
           "conversion_prev": 0,
           "conversion_cohort": 0.5833333333333334,
           "drop": -7
-        }
-      }
-    },
-    "United Kingdom + Other Countries": {
-      "cohortSize": 10,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 0
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 10,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 1,
-          "conversion_prev": 0.1,
-          "conversion_cohort": 0.1,
-          "drop": 9
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 1
-        },
-        "1087110456": {
-          "name": "Offer Membership",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 0
         }
       }
     },
@@ -4622,34 +4622,34 @@
   },
   "2026-W05": {
     "South Africa": {
-      "cohortSize": 8,
+      "cohortSize": 10,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.125,
+          "conversion_cohort": 0.1,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 1,
           "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.125,
+          "conversion_cohort": 0.1,
           "drop": 2
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 8,
+          "count": 10,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 6,
-          "conversion_prev": 0.75,
-          "conversion_cohort": 0.75,
+          "count": 8,
+          "conversion_prev": 0.8,
+          "conversion_cohort": 0.8,
           "drop": 2
         },
         "1087110454": {
@@ -4657,19 +4657,19 @@
           "count": 0,
           "conversion_prev": 0,
           "conversion_cohort": 0,
-          "drop": 6
+          "drop": 8
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 3,
           "conversion_prev": 0,
-          "conversion_cohort": 0.375,
+          "conversion_cohort": 0.3,
           "drop": -3
         }
       }
     },
     "United Kingdom + Other Countries": {
-      "cohortSize": 22,
+      "cohortSize": 24,
       "stages": {
         "36053576": {
           "name": "Member",
@@ -4687,7 +4687,7 @@
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 22,
+          "count": 24,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -4695,22 +4695,22 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 11,
-          "conversion_prev": 0.5,
-          "conversion_cohort": 0.5,
-          "drop": 11
+          "conversion_prev": 0.4583333333333333,
+          "conversion_cohort": 0.4583333333333333,
+          "drop": 13
         },
         "1087110454": {
           "name": "Interview",
           "count": 1,
           "conversion_prev": 0.09090909090909091,
-          "conversion_cohort": 0.045454545454545456,
+          "conversion_cohort": 0.041666666666666664,
           "drop": 10
         },
         "1087110456": {
           "name": "Offer Membership",
           "count": 2,
           "conversion_prev": 2,
-          "conversion_cohort": 0.09090909090909091,
+          "conversion_cohort": 0.08333333333333333,
           "drop": -1
         }
       }
@@ -4765,25 +4765,25 @@
   },
   "2025-W48": {
     "United Kingdom + Other Countries": {
-      "cohortSize": 8,
+      "cohortSize": 9,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 2,
           "conversion_prev": 1,
-          "conversion_cohort": 0.25,
+          "conversion_cohort": 0.2222222222222222,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 2,
-          "conversion_prev": 0.6666666666666666,
-          "conversion_cohort": 0.25,
-          "drop": 1
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.2222222222222222,
+          "drop": 2
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 8,
+          "count": 9,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -4791,23 +4791,23 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 3,
-          "conversion_prev": 0.375,
-          "conversion_cohort": 0.375,
-          "drop": 5
+          "conversion_prev": 0.3333333333333333,
+          "conversion_cohort": 0.3333333333333333,
+          "drop": 6
         },
         "1087110454": {
           "name": "Interview",
           "count": 2,
           "conversion_prev": 0.6666666666666666,
-          "conversion_cohort": 0.25,
+          "conversion_cohort": 0.2222222222222222,
           "drop": 1
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 3,
-          "conversion_prev": 1.5,
-          "conversion_cohort": 0.375,
-          "drop": -1
+          "count": 4,
+          "conversion_prev": 2,
+          "conversion_cohort": 0.4444444444444444,
+          "drop": -2
         }
       }
     },
@@ -4907,6 +4907,53 @@
     }
   },
   "2025-W50": {
+    "South Africa": {
+      "cohortSize": 3,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.6666666666666666,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 2,
+          "conversion_prev": 0.6666666666666666,
+          "conversion_cohort": 0.6666666666666666,
+          "drop": 1
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 3,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 1,
+          "conversion_prev": 0.3333333333333333,
+          "conversion_cohort": 0.3333333333333333,
+          "drop": 2
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.3333333333333333,
+          "drop": 0
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 3,
+          "conversion_prev": 3,
+          "conversion_cohort": 1,
+          "drop": -2
+        }
+      }
+    },
     "United Kingdom + Other Countries": {
       "cohortSize": 11,
       "stages": {
@@ -4951,53 +4998,6 @@
           "conversion_prev": 4,
           "conversion_cohort": 0.36363636363636365,
           "drop": -3
-        }
-      }
-    },
-    "South Africa": {
-      "cohortSize": 2,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 2,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 2,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 2,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 2
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 0
-        },
-        "1087110456": {
-          "name": "Offer Membership",
-          "count": 2,
-          "conversion_prev": 0,
-          "conversion_cohort": 1,
-          "drop": -2
         }
       }
     },
@@ -5192,25 +5192,25 @@
       }
     },
     "South Africa": {
-      "cohortSize": 3,
+      "cohortSize": 2,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 0.3333333333333333,
+          "conversion_cohort": 0.5,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 1,
           "conversion_prev": 0.5,
-          "conversion_cohort": 0.3333333333333333,
+          "conversion_cohort": 0.5,
           "drop": 1
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 3,
+          "count": 2,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -5218,9 +5218,9 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 1,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.3333333333333333,
-          "drop": 2
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.5,
+          "drop": 1
         },
         "1087110454": {
           "name": "Interview",
@@ -5233,7 +5233,7 @@
           "name": "Offer Membership",
           "count": 2,
           "conversion_prev": 0,
-          "conversion_cohort": 0.6666666666666666,
+          "conversion_cohort": 1,
           "drop": -2
         }
       }
@@ -5241,7 +5241,7 @@
   },
   "2025-W52": {
     "United Kingdom + Other Countries": {
-      "cohortSize": 4,
+      "cohortSize": 3,
       "stages": {
         "36053576": {
           "name": "Member",
@@ -5259,7 +5259,7 @@
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 4,
+          "count": 3,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -5269,7 +5269,7 @@
           "count": 0,
           "conversion_prev": 0,
           "conversion_cohort": 0,
-          "drop": 4
+          "drop": 3
         },
         "1087110454": {
           "name": "Interview",
@@ -5282,8 +5282,55 @@
           "name": "Offer Membership",
           "count": 1,
           "conversion_prev": 0,
-          "conversion_cohort": 0.25,
+          "conversion_cohort": 0.3333333333333333,
           "drop": -1
+        }
+      }
+    },
+    "South Africa": {
+      "cohortSize": 1,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 1
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
         }
       }
     },
@@ -5333,23 +5380,121 @@
           "drop": 0
         }
       }
-    },
+    }
+  },
+  "2025-W01": {
     "South Africa": {
-      "cohortSize": 1,
+      "cohortSize": 2,
       "stages": {
         "36053576": {
           "name": "Member",
           "count": 1,
           "conversion_prev": 1,
-          "conversion_cohort": 1,
+          "conversion_cohort": 0.5,
           "drop": 0
         },
         "1086814890": {
           "name": "Paid",
           "count": 1,
           "conversion_prev": 1,
+          "conversion_cohort": 0.5,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 2,
+          "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 2
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 1,
+          "conversion_prev": 0,
+          "conversion_cohort": 0.5,
+          "drop": -1
+        }
+      }
+    },
+    "United Kingdom + Other Countries": {
+      "cohortSize": 4,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.25,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.25,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 4,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 2,
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.5,
+          "drop": 2
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 1,
+          "conversion_prev": 0.5,
+          "conversion_cohort": 0.25,
+          "drop": 1
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.25,
+          "drop": 0
+        }
+      }
+    }
+  },
+  "2026-W01": {
+    "South Africa": {
+      "cohortSize": 1,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 1
         },
         "1087110450": {
           "name": "Joined Waitlist",
@@ -5380,11 +5525,9 @@
           "drop": -1
         }
       }
-    }
-  },
-  "2026-W01": {
-    "South Africa": {
-      "cohortSize": 4,
+    },
+    "United Kingdom + Other Countries": {
+      "cohortSize": 1,
       "stages": {
         "36053576": {
           "name": "Member",
@@ -5398,11 +5541,107 @@
           "count": 0,
           "conversion_prev": 0,
           "conversion_cohort": 0,
-          "drop": 2
+          "drop": 0
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 4,
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 1
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        }
+      }
+    }
+  },
+  "2026-W03": {
+    "United Arab Emirates": {
+      "cohortSize": 2,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 2,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 2
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 2,
+          "conversion_prev": 0,
+          "conversion_cohort": 1,
+          "drop": -2
+        }
+      }
+    },
+    "South Africa": {
+      "cohortSize": 6,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 3,
+          "conversion_prev": 1,
+          "conversion_cohort": 0.5,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 3,
+          "conversion_prev": 0.75,
+          "conversion_cohort": 0.5,
+          "drop": 1
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 6,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -5410,9 +5649,9 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 4,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
+          "conversion_prev": 0.6666666666666666,
+          "conversion_cohort": 0.6666666666666666,
+          "drop": 2
         },
         "1087110454": {
           "name": "Interview",
@@ -5423,111 +5662,15 @@
         },
         "1087110456": {
           "name": "Offer Membership",
-          "count": 2,
-          "conversion_prev": 0,
-          "conversion_cohort": 0.5,
-          "drop": -2
-        }
-      }
-    },
-    "United Kingdom + Other Countries": {
-      "cohortSize": 4,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.25,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.25,
-          "drop": 0
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 4,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 3,
-          "conversion_prev": 0.75,
-          "conversion_cohort": 0.75,
-          "drop": 1
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 1,
-          "conversion_prev": 0.3333333333333333,
-          "conversion_cohort": 0.25,
-          "drop": 2
-        },
-        "1087110456": {
-          "name": "Offer Membership",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.25,
-          "drop": 0
-        }
-      }
-    }
-  },
-  "2026-W03": {
-    "South Africa": {
-      "cohortSize": 7,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 3,
-          "conversion_prev": 1,
-          "conversion_cohort": 0.42857142857142855,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 3,
-          "conversion_prev": 0.75,
-          "conversion_cohort": 0.42857142857142855,
-          "drop": 1
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 7,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 5,
-          "conversion_prev": 0.7142857142857143,
-          "conversion_cohort": 0.7142857142857143,
-          "drop": 2
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 5
-        },
-        "1087110456": {
-          "name": "Offer Membership",
           "count": 4,
           "conversion_prev": 0,
-          "conversion_cohort": 0.5714285714285714,
+          "conversion_cohort": 0.6666666666666666,
           "drop": -4
         }
       }
     },
     "Jordan": {
-      "cohortSize": 30,
+      "cohortSize": 29,
       "stages": {
         "36053576": {
           "name": "Member",
@@ -5545,7 +5688,7 @@
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 30,
+          "count": 29,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
@@ -5553,15 +5696,15 @@
         "1087110452": {
           "name": "Offer Interview",
           "count": 16,
-          "conversion_prev": 0.5333333333333333,
-          "conversion_cohort": 0.5333333333333333,
-          "drop": 14
+          "conversion_prev": 0.5517241379310345,
+          "conversion_cohort": 0.5517241379310345,
+          "drop": 13
         },
         "1087110454": {
           "name": "Interview",
           "count": 7,
           "conversion_prev": 0.4375,
-          "conversion_cohort": 0.23333333333333334,
+          "conversion_cohort": 0.2413793103448276,
           "drop": 9
         },
         "1087110456": {
@@ -5573,55 +5716,8 @@
         }
       }
     },
-    "United Arab Emirates": {
-      "cohortSize": 1,
-      "stages": {
-        "36053576": {
-          "name": "Member",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1086814890": {
-          "name": "Paid",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110450": {
-          "name": "Joined Waitlist",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110452": {
-          "name": "Offer Interview",
-          "count": 1,
-          "conversion_prev": 1,
-          "conversion_cohort": 1,
-          "drop": 0
-        },
-        "1087110454": {
-          "name": "Interview",
-          "count": 0,
-          "conversion_prev": 0,
-          "conversion_cohort": 0,
-          "drop": 1
-        },
-        "1087110456": {
-          "name": "Offer Membership",
-          "count": 1,
-          "conversion_prev": 0,
-          "conversion_cohort": 1,
-          "drop": -1
-        }
-      }
-    },
     "United Kingdom + Other Countries": {
-      "cohortSize": 10,
+      "cohortSize": 9,
       "stages": {
         "36053576": {
           "name": "Member",
@@ -5639,16 +5735,16 @@
         },
         "1087110450": {
           "name": "Joined Waitlist",
-          "count": 10,
+          "count": 9,
           "conversion_prev": 1,
           "conversion_cohort": 1,
           "drop": 0
         },
         "1087110452": {
           "name": "Offer Interview",
-          "count": 7,
-          "conversion_prev": 0.7,
-          "conversion_cohort": 0.7,
+          "count": 6,
+          "conversion_prev": 0.6666666666666666,
+          "conversion_cohort": 0.6666666666666666,
           "drop": 3
         },
         "1087110454": {
@@ -5656,7 +5752,293 @@
           "count": 0,
           "conversion_prev": 0,
           "conversion_cohort": 0,
-          "drop": 7
+          "drop": 6
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        }
+      }
+    }
+  },
+  "2026-W06": {
+    "Jordan": {
+      "cohortSize": 1,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 1
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        }
+      }
+    },
+    "United Kingdom + Other Countries": {
+      "cohortSize": 3,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 3,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 3
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        }
+      }
+    },
+    "South Africa": {
+      "cohortSize": 1,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 1
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        }
+      }
+    }
+  },
+  "2026-02": {
+    "Jordan": {
+      "cohortSize": 1,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 1
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        }
+      }
+    },
+    "United Kingdom + Other Countries": {
+      "cohortSize": 3,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 3,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 3
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110456": {
+          "name": "Offer Membership",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        }
+      }
+    },
+    "South Africa": {
+      "cohortSize": 1,
+      "stages": {
+        "36053576": {
+          "name": "Member",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1086814890": {
+          "name": "Paid",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
+        },
+        "1087110450": {
+          "name": "Joined Waitlist",
+          "count": 1,
+          "conversion_prev": 1,
+          "conversion_cohort": 1,
+          "drop": 0
+        },
+        "1087110452": {
+          "name": "Offer Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 1
+        },
+        "1087110454": {
+          "name": "Interview",
+          "count": 0,
+          "conversion_prev": 0,
+          "conversion_cohort": 0,
+          "drop": 0
         },
         "1087110456": {
           "name": "Offer Membership",

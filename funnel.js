@@ -1,9 +1,8 @@
 const dayjs = require("dayjs");
-
-const isoWeek = require("dayjs/plugin/isoWeek");
+const weekOfYear = require("dayjs/plugin/weekOfYear");
 const isSameOrAfter = require("dayjs/plugin/isSameOrAfter");
 
-dayjs.extend(isoWeek);
+dayjs.extend(weekOfYear);
 dayjs.extend(isSameOrAfter);
 
 const fs = require("fs");
@@ -13,7 +12,8 @@ const { ORDERED_FUNNEL, STAGE_NAMES, FUNNEL_STAGES } = require("./config");
 
 
 function getWeek(ts) {
-  return `${dayjs(ts).isoWeekYear()}-W${String(dayjs(ts).isoWeek()).padStart(2, "0")}`;
+  const d = dayjs(ts);
+  return `${d.year()}-W${String(d.week()).padStart(2, "0")}`;
 }
 
 function getMonth(ts) {
@@ -81,7 +81,10 @@ async function buildFunnel() {
           const entered = dayjs(ts);
           const cohortStart =
             month.includes("-W")
-              ? dayjs().year(month.split("-W")[0]).isoWeek(month.split("-W")[1]).startOf("isoWeek")
+              ? dayjs()
+                .year(Number(month.split("-W")[0]))
+                .week(Number(month.split("-W")[1]))
+                .startOf("week")// Sunday start
               : month.length === 4
                 ? dayjs(`${month}-01-01`)
                 : dayjs(`${month}-01`);
