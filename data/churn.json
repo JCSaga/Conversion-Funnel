@@ -3768,6 +3768,16 @@
       "label": "2026-01-31",
       "onboarded": 0,
       "offboarded": 1
+    },
+    {
+      "label": "2026-02-02",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-28",
+      "onboarded": 0,
+      "offboarded": 1
     }
   ],
   "Jordan": [
