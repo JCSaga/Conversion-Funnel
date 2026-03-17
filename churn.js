@@ -7,14 +7,16 @@ const path = require("path");
 const { getDeals } = require("./hubspot");
 
 function bucketCountry(raw) {
-    if (!raw) return "United Kingdom + Other Countries";
+    if (!raw) return "Other Countries";
+
     const c = raw.trim();
 
+    if (c === "United Kingdom") return "United Kingdom";
     if (c === "United Arab Emirates") return "United Arab Emirates";
     if (c === "South Africa") return "South Africa";
     if (c === "Jordan") return "Jordan";
 
-    return "United Kingdom + Other Countries";
+    return "Other Countries";
 }
 
 function getDayKey(ts) {

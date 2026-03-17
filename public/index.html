@@ -297,7 +297,8 @@
     <div class="control-row">
       <select id="countryFilter">
         <option value="all" selected>All Countries</option>
-        <option value="uk">United Kingdom + Other Countries</option>
+        <option value="uk">United Kingdom</option>
+        <option value="other">Other Countries</option>
         <option value="uae-jordan">United Arab Emirates & Jordan</option>
         <option value="sa">South Africa</option>
       </select>
@@ -388,13 +389,17 @@
 
       const COUNTRY_GROUPS = {
         all: [
-          "United Kingdom + Other Countries",
+          "United Kingdom",
           "United Arab Emirates",
           "South Africa",
-          "Jordan"
+          "Jordan",
+          "Other Countries"
         ],
         uk: [
-          "United Kingdom + Other Countries"
+          "United Kingdom"
+        ],
+        other: [
+          "Other Countries"
         ],
         "uae-jordan": [
           "United Arab Emirates",
