@@ -39,7 +39,7 @@
       width: 100%;
       display: flex;
       flex-direction: column;
-      gap: 50px;
+      gap: 30px;
     }
 
 
@@ -50,9 +50,7 @@
       grid-template-columns: 720px 720px;
       gap: 32px;
       justify-content: center;
-      align-items: start;
-      /* ⬅️ IMPORTANT */
-      width: 100%;
+      align-items: stretch;
     }
 
     /* Column wrapper */
@@ -78,11 +76,6 @@
     .dashboard-column .column-header .control-row {
       margin-bottom: 4px;
       /* was effectively 10–20px */
-    }
-
-    /* Reduce gap between funnel header and funnel chart */
-    .dashboard-column #grid {
-      margin-top: -5px;
     }
 
     /* ================= COLUMN HEADER ALIGNMENT ================= */
@@ -125,12 +118,15 @@
     .funnel-box {
       width: 100%;
       min-height: 620px;
-      /* ⬅️ NOT height */
       box-sizing: border-box;
       border: 1px solid #ddd;
       border-radius: 12px;
-      padding: 5px;
+      padding: 20px 10px;
       background: #fafafa;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
     }
 
     /* Funnel content spacing */
@@ -141,7 +137,7 @@
     .row {
       display: flex;
       align-items: center;
-      margin: 15px 0;
+      margin: 6px 0;
     }
 
     .stage {
@@ -153,7 +149,7 @@
 
     .bar-wrapper {
       flex: 1;
-      height: 75px;
+      height: 65px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -222,7 +218,6 @@
       gap: 40px;
       min-width: max-content;
       height: 520px;
-      /* ⬅️ room for taller bars */
       padding: 10px;
     }
 
@@ -512,6 +507,7 @@
         const stages = [
           "Joined Waitlist",
           "Offer Interview",
+          "Booked Interview", // ✅ NEW
           "Interview",
           "Offer Membership",
           "Paid",
@@ -522,18 +518,26 @@
           ? stages.map(s => Object.values(data.stages).find(x => x.name === s))
           : stages.map(s => ({ name: s, count: 0, drop: 0 }));
 
-        const widths = ["100%", "98%", "75%", "50%", "25%", "8%"];
+        const widths = ["90%", "88%", "73%", "55%", "38%", "23%", "8%"];
         const shapes = [
           "inset(0 0 0 0)",
-          "polygon(0% 0%,100% 0%,90% 100%,10% 100%)",
+          "polygon(0% 0%,100% 0%,92% 100%,8% 100%)",
+          "polygon(0% 0%,100% 0%,88% 100%,12% 100%)",
           "polygon(0% 0%,100% 0%,85% 100%,15% 100%)",
           "polygon(0% 0%,100% 0%,80% 100%,20% 100%)",
           "polygon(0% 0%,100% 0%,70% 100%,30% 100%)",
           "polygon(0% 0%,100% 0%,60% 100%,40% 100%)"
         ];
 
-        const colors = ["#4169E1", "#3A7FF0", "#5A8DEE", "#7FB5F3", "#F4C24B", "#DB5A2E"];
-
+        const colors = [
+          "#4169E1",
+          "#3A7FF0",
+          "#4F8CF5",
+          "#5A8DEE",
+          "#7FB5F3",
+          "#F4C24B",
+          "#DB5A2E"
+        ];
         const box = document.createElement("div");
         box.className = "funnel-box";
         box.innerHTML = `<div class="country-title">${country}</div>`;

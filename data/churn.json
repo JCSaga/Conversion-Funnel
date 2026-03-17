@@ -2432,8 +2432,18 @@
     },
     {
       "label": "2026-02-02",
-      "onboarded": 0,
+      "onboarded": 1,
       "offboarded": 1
+    },
+    {
+      "label": "2026-02-03",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-05",
+      "onboarded": 1,
+      "offboarded": 0
     },
     {
       "label": "2026-02-06",
@@ -2441,8 +2451,23 @@
       "offboarded": 3
     },
     {
+      "label": "2026-02-09",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-11",
+      "onboarded": 1,
+      "offboarded": 2
+    },
+    {
       "label": "2026-02-12",
-      "onboarded": 0,
+      "onboarded": 1,
       "offboarded": 1
     },
     {
@@ -2452,16 +2477,121 @@
     },
     {
       "label": "2026-02-14",
-      "onboarded": 0,
+      "onboarded": 1,
       "offboarded": 1
+    },
+    {
+      "label": "2026-02-16",
+      "onboarded": 1,
+      "offboarded": 0
     },
     {
       "label": "2026-02-19",
       "onboarded": 0,
-      "offboarded": 1
+      "offboarded": 2
     },
     {
       "label": "2026-02-23",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-26",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-27",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-28",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-03-01",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-03-02",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-03-03",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2026-03-05",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-03-06",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-03-09",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-03-10",
+      "onboarded": 2,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-03-11",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-03-12",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-03-13",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-03-15",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-03-16",
+      "onboarded": 3,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-03-30",
+      "onboarded": 0,
+      "offboarded": 4
+    },
+    {
+      "label": "2026-04-06",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-04-08",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-04-13",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2026-04-15",
       "onboarded": 0,
       "offboarded": 1
     }
@@ -3190,7 +3320,7 @@
     {
       "label": "2025-11-06",
       "onboarded": 1,
-      "offboarded": 0
+      "offboarded": 1
     },
     {
       "label": "2025-11-09",
@@ -3210,7 +3340,7 @@
     {
       "label": "2025-11-12",
       "onboarded": 2,
-      "offboarded": 0
+      "offboarded": 1
     },
     {
       "label": "2025-11-14",
@@ -3329,8 +3459,8 @@
     },
     {
       "label": "2026-01-14",
-      "onboarded": 0,
-      "offboarded": 1
+      "onboarded": 1,
+      "offboarded": 2
     },
     {
       "label": "2026-01-15",
@@ -3358,7 +3488,122 @@
       "offboarded": 0
     },
     {
+      "label": "2026-01-28",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-01-31",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2026-02-03",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-05",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-07",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
       "label": "2026-02-08",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-11",
+      "onboarded": 1,
+      "offboarded": 2
+    },
+    {
+      "label": "2026-02-13",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-15",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-17",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-18",
+      "onboarded": 2,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-19",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-20",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-23",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-02-26",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-27",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-03-03",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-03-05",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-03-07",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-03-09",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-03-10",
+      "onboarded": 0,
+      "offboarded": 2
+    },
+    {
+      "label": "2026-03-11",
+      "onboarded": 1,
+      "offboarded": 2
+    },
+    {
+      "label": "2026-03-13",
+      "onboarded": 0,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-03-30",
       "onboarded": 0,
       "offboarded": 1
     }
@@ -3775,16 +4020,25 @@
       "offboarded": 0
     },
     {
+      "label": "2026-02-04",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
+      "label": "2026-02-10",
+      "onboarded": 1,
+      "offboarded": 0
+    },
+    {
       "label": "2026-02-28",
+      "onboarded": 1,
+      "offboarded": 1
+    },
+    {
+      "label": "2026-03-13",
       "onboarded": 0,
       "offboarded": 1
     }
   ],
-  "Jordan": [
-    {
-      "label": "2026-01-14",
-      "onboarded": 1,
-      "offboarded": 0
-    }
-  ]
+  "Jordan": []
 }
