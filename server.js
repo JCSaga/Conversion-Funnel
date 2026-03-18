@@ -30,11 +30,22 @@ app.get('/churn', (req, res) => {
     }
 });
 
+// GET stage bar data
+app.get('/stage-bars', (req, res) => {
+    const filePath = path.join(__dirname, 'data', 'stageBars.json');
+    try {
+        const json = JSON.parse(fs.readFileSync(filePath));
+        res.json(json);
+    } catch (e) {
+        res.status(500).json({ ok: false });
+    }
+});
+
 // Refresh funnel + churn
 app.post('/refresh', (req, res) => {
-    console.log("Refreshing funnel + churn...");
+    console.log("Refreshing funnel + churn + stageBars...");
 
-    exec('node funnel.js && node churn.js', (err, stdout) => {
+    exec('node funnel.js && node churn.js && node stageBars.js', (err, stdout) => {
         if (err) {
             return res.status(500).json({ ok: false });
         }

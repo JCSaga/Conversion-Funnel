@@ -8,17 +8,18 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 40px 0;
+      padding: 40px 20px;
       background: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      overflow-x: auto;
+      overflow-y: auto;
+      min-width: max-content;
     }
 
     .control-row {
       display: flex;
       gap: 10px;
       margin-bottom: 20px;
+      justify-content: center;
     }
 
     select,
@@ -47,10 +48,10 @@
 
     .dashboard-row {
       display: grid;
-      grid-template-columns: 720px 720px;
+      grid-template-columns: 720px 720px 720px;
       gap: 32px;
       justify-content: center;
-      align-items: stretch;
+      align-items: flex-start;
     }
 
     /* Column wrapper */
@@ -58,7 +59,7 @@
       width: 720px;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: stretch;
     }
 
     .dashboard-title {
@@ -281,274 +282,375 @@
       margin-top: 6px;
       font-size: 11px;
       text-align: center;
-      white-space: nowrap;
+      width: 80px;
+      line-height: 1.2;
+      white-space: normal;
+    }
+
+    /* ================= STAGE BAR ================= */
+
+    .stage-chart {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      min-width: max-content;
+      height: 520px;
+      padding: 10px;
+    }
+
+    .stage-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      /* important */
+      flex: 1;
+      height: 90%;
+    }
+
+    .stage-bar {
+      width: 60px;
+      min-height: 4px;
+      /* prevents invisible bars */
+      border-radius: 6px 6px 0 0;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
     }
   </style>
 </head>
 
 <body>
 
-  <body>
+  <!-- DASHBOARD TITLE -->
+  <h1 class="dashboard-title">OPUS Membership Dashboard</h1>
 
-    <!-- DASHBOARD TITLE -->
-    <h1 class="dashboard-title">OPUS Membership Dashboard</h1>
+  <!-- COUNTRY FILTER (CENTERED – KEEP THIS) -->
+  <div class="control-row">
+    <select id="countryFilter">
+      <option value="all" selected>All Countries</option>
+      <option value="uk">United Kingdom & Other Countries</option>
+      <option value="uae-jordan">United Arab Emirates & Jordan</option>
+      <option value="sa">South Africa</option>
+    </select>
 
-    <!-- COUNTRY FILTER (CENTERED – KEEP THIS) -->
-    <div class="control-row">
-      <select id="countryFilter">
-        <option value="all" selected>All Countries</option>
-        <option value="uk">United Kingdom & Other Countries</option>
-        <option value="uae-jordan">United Arab Emirates & Jordan</option>
-        <option value="sa">South Africa</option>
-      </select>
+    <button id="refreshBtn">Refresh Data</button>
+    <span id="refreshStatus"></span>
+  </div>
+
+  <div class="dashboard-row">
+
+    <!-- STAGE ACTIVITY -->
+    <div class="dashboard-column">
+
+      <div class="column-header">
+
+        <h2 class="section-title">Membership Stage Activity</h2>
+
+        <div class="control-row">
+          <select id="stageRange">
+            <option value="weekly">Weekly</option>
+            <option value="monthly" selected>Monthly</option>
+            <option value="yearly">Yearly</option>
+          </select>
+
+          <select id="stagePeriod"></select>
+        </div>
+
+      </div>
+
+      <div class="grid" id="stageBarsGrid"></div>
+
     </div>
 
-    <div class="control-row">
-      <button id="refreshBtn">Refresh Data</button>
-      <span id="refreshStatus"></span>
+    <!-- FUNNEL (CENTER) -->
+    <div class="dashboard-column">
+
+      <div class="column-header">
+
+        <h2 class="section-title" id="title"></h2>
+
+        <div class="control-row">
+          <select id="funnelRange">
+            <option value="weekly">Weekly</option>
+            <option value="monthly" selected>Monthly</option>
+            <option value="yearly">Yearly</option>
+          </select>
+
+          <select id="funnelPeriod"></select>
+        </div>
+
+      </div>
+
+      <div class="grid" id="grid"></div>
+
     </div>
 
-    <div class="dashboard-row">
+    <!-- CHURN -->
+    <div class="dashboard-column">
 
-      <!-- LEFT: FUNNEL -->
-      <div class="dashboard-column">
+      <div class="column-header">
 
-        <div class="column-header">
-          <!-- FUNNEL TITLE -->
-          <h2 class="section-title" id="title"></h2>
+        <h2 class="section-title">Membership Onboarded vs. Offboarded Churn</h2>
 
-          <!-- FUNNEL FILTERS -->
-          <div class="control-row">
-            <select id="funnelRange">
-              <option value="weekly">Weekly</option>
-              <option value="monthly" selected>Monthly</option>
-              <option value="yearly">Yearly</option>
-            </select>
+        <div class="control-row">
+          <select id="churnRange">
+            <option value="weekly">Weekly</option>
+            <option value="monthly" selected>Monthly</option>
+            <option value="quarterly">Quarterly</option>
+            <option value="half-year">Half-Year</option>
+            <option value="yearly">Yearly</option>
+          </select>
+        </div>
 
-            <select id="funnelPeriod"></select>
+        <div class="churn-legend">
+          <div class="legend-item">
+            <span class="legend-dot legend-onboarded"></span>
+            <span>Onboarded Members</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot legend-offboarded"></span>
+            <span>Offboarded Members</span>
           </div>
         </div>
 
-        <!-- FUNNEL GRID -->
-        <div class="grid" id="grid"></div>
       </div>
 
-      <!-- RIGHT: CHURN -->
-      <div class="dashboard-column">
-
-        <div class="column-header">
-          <h2 class="section-title">Membership Onboarded vs. Offboarded Churn</h2>
-
-          <div class="control-row">
-            <select id="churnRange">
-              <option value="weekly">Weekly</option>
-              <option value="monthly" selected>Monthly</option>
-              <option value="quarterly">Quarterly</option>
-              <option value="half-year">Half-Year</option>
-              <option value="yearly">Yearly</option>
-            </select>
-          </div>
-
-          <div class="churn-legend">
-            <div class="legend-item">
-              <span class="legend-dot legend-onboarded"></span>
-              <span>Onboarded Members</span>
-            </div>
-            <div class="legend-item">
-              <span class="legend-dot legend-offboarded"></span>
-              <span>Offboarded Members</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="grid" id="churnGrid"></div>
-      </div>
-
+      <div class="grid" id="churnGrid"></div>
 
     </div>
-    <script src="https://unpkg.com/dayjs@1/dayjs.min.js"></script>
-    <script src="https://unpkg.com/dayjs@1/plugin/weekOfYear.js"></script>
-    <script>
-      dayjs.extend(window.dayjs_plugin_weekOfYear);
-    </script>
 
-    <script>
-      let jsonData = null;
-      let churnData = null;
-
-      const START_YEAR = 2025;
-      const CURRENT_YEAR = new Date().getFullYear();
-
-      const monthNames = [
-        "January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December"
-      ];
-
-      const shortMonths = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-      const COUNTRY_GROUPS = {
-        all: [
-          "United Kingdom",
-          "United Arab Emirates",
-          "South Africa",
-          "Jordan",
-          "Other Countries"
-        ],
-
-        uk: [
-          "United Kingdom",
-          "Other Countries"
-        ],
-
-        "uae-jordan": [
-          "United Arab Emirates",
-          "Jordan"
-        ],
-
-        sa: [
-          "South Africa"
-        ]
-      };
+  </div>
 
 
-      fetchData();
+  </div>
+  <script src="https://unpkg.com/dayjs@1/dayjs.min.js"></script>
+  <script src="https://unpkg.com/dayjs@1/plugin/weekOfYear.js"></script>
+  <script>
+    dayjs.extend(window.dayjs_plugin_weekOfYear);
+  </script>
 
-      /* ================= FETCH ================= */
+  <script>
+    let jsonData = null;
+    let churnData = null;
+    let stageBarsData = null;
 
-      async function fetchData() {
-        const ts = Date.now();
-        jsonData = await fetch(`/data?ts=${ts}`).then(r => r.json());
-        churnData = await fetch(`/churn?ts=${ts}`).then(r => r.json());
-        buildSelectors();
-        buildFunnelPeriods();   // 👈 must come first
+    const START_YEAR = 2025;
+    const CURRENT_YEAR = new Date().getFullYear();
+
+    const monthNames = [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ];
+
+    const shortMonths = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+    const COUNTRY_GROUPS = {
+      all: [
+        "United Kingdom",
+        "United Arab Emirates",
+        "South Africa",
+        "Jordan",
+        "Other Countries"
+      ],
+
+      uk: [
+        "United Kingdom",
+        "Other Countries"
+      ],
+
+      "uae-jordan": [
+        "United Arab Emirates",
+        "Jordan"
+      ],
+
+      sa: [
+        "South Africa"
+      ]
+    };
+
+
+    fetchData();
+
+    /* ================= FETCH ================= */
+
+    async function fetchData() {
+      const ts = Date.now();
+      jsonData = await fetch(`/data?ts=${ts}`).then(r => r.json());
+      churnData = await fetch(`/churn?ts=${ts}`).then(r => r.json());
+      stageBarsData = await fetch(`/stage-bars?ts=${ts}`).then(r => r.json());
+
+      buildSelectors();
+      buildFunnelPeriods();
+      buildStagePeriods();
+      renderDashboard();
+      renderChurn();
+      renderStageBars();
+    }
+
+    /* ================= SELECTORS ================= */
+
+    function buildSelectors() {
+
+      churnRange.onchange = renderChurn;
+
+      countryFilter.onchange = () => {
         renderDashboard();
         renderChurn();
+        renderStageBars();
+      };
+
+      /* Funnel */
+      funnelRange.onchange = () => {
+        buildFunnelPeriods();
+        renderDashboard();
+      };
+
+      funnelPeriod.onchange = renderDashboard;
+
+      /* Stage */
+      stageRange.onchange = () => {
+        buildStagePeriods();
+        renderStageBars();
+      };
+
+      stagePeriod.onchange = renderStageBars;
+    }
+
+    function buildFunnelPeriods() {
+      funnelPeriod.innerHTML = "";
+
+      const mode = funnelRange.value;
+      const keys = Object.keys(jsonData || {})
+        .filter(k => {
+          const year = Number(k.slice(0, 4));
+          return year >= START_YEAR;
+        })
+        .sort();
+
+
+
+      let filtered;
+
+      if (mode === "weekly") {
+        filtered = keys.filter(k => k.includes("-W"));
+      } else if (mode === "yearly") {
+        filtered = keys.filter(k => /^\d{4}$/.test(k));
+      } else {
+        filtered = keys.filter(k => /^\d{4}-\d{2}$/.test(k));
       }
 
-      /* ================= SELECTORS ================= */
+      filtered.forEach(k => {
+        funnelPeriod.innerHTML += `<option value="${k}">${formatFunnelLabel(k, mode)}</option>`;
+      });
 
-      function buildSelectors() {
-        churnRange.onchange = renderChurn;
-        countryFilter.onchange = () => {
-          renderDashboard();
-          renderChurn();
-        };
+      funnelPeriod.selectedIndex = 0;
+    }
 
-        funnelRange.onchange = () => {
-          buildFunnelPeriods();
-          renderDashboard();
-        };
+    function buildStagePeriods() {
 
-        funnelPeriod.onchange = renderDashboard;
+      stagePeriod.innerHTML = "";
 
+      const mode = stageRange.value;
 
+      const keys = Object.keys(jsonData || {})
+        .filter(k => {
+          const year = Number(k.slice(0, 4));
+          return year >= START_YEAR;
+        })
+        .sort();
+
+      let filtered;
+
+      if (mode === "weekly") {
+        filtered = keys.filter(k => k.includes("-W"));
+      } else if (mode === "yearly") {
+        filtered = keys.filter(k => /^\d{4}$/.test(k));
+      } else {
+        filtered = keys.filter(k => /^\d{4}-\d{2}$/.test(k));
       }
 
-      function buildFunnelPeriods() {
-        funnelPeriod.innerHTML = "";
+      filtered.forEach(k => {
+        stagePeriod.innerHTML += `<option value="${k}">${formatFunnelLabel(k, mode)}</option>`;
+      });
 
-        const mode = funnelRange.value;
-        const keys = Object.keys(jsonData || {})
-          .filter(k => {
-            const year = Number(k.slice(0, 4));
-            return year >= START_YEAR;
-          })
-          .sort();
+      stagePeriod.selectedIndex = 0;
+    }
 
-
-
-        let filtered;
-
-        if (mode === "weekly") {
-          filtered = keys.filter(k => k.includes("-W"));
-        } else if (mode === "yearly") {
-          filtered = keys.filter(k => /^\d{4}$/.test(k));
-        } else {
-          filtered = keys.filter(k => /^\d{4}-\d{2}$/.test(k));
-        }
-
-        filtered.forEach(k => {
-          funnelPeriod.innerHTML += `<option value="${k}">${formatFunnelLabel(k, mode)}</option>`;
-        });
-
-        funnelPeriod.selectedIndex = 0;
+    function formatFunnelLabel(key, mode) {
+      if (mode === "weekly") {
+        const [y, w] = key.split("-W");
+        const start = dayjs().year(y).week(w).startOf("week"); // Sunday
+        const end = start.add(6, "day");
+        return `${start.date()}–${end.date()} ${shortMonths[start.month()]}, ${y}`;
       }
 
-      function formatFunnelLabel(key, mode) {
-        if (mode === "weekly") {
-          const [y, w] = key.split("-W");
-          const start = dayjs().year(y).week(w).startOf("week"); // Sunday
-          const end = start.add(6, "day");
-          return `${start.date()}–${end.date()} ${shortMonths[start.month()]}, ${y}`;
-        }
-
-        if (mode === "monthly") {
-          const [y, m] = key.split("-");
-          return `${shortMonths[m - 1]} ${y}`;
-        }
-
-        return key; // yearly
+      if (mode === "monthly") {
+        const [y, m] = key.split("-");
+        return `${shortMonths[m - 1]} ${y}`;
       }
 
+      return key; // yearly
+    }
 
 
+    /* ================= FUNNEL ================= */
 
-      /* ================= FUNNEL ================= */
+    function renderDashboard() {
+      grid.innerHTML = "";
+      const key = funnelPeriod.value;
+      title.textContent = `Membership Application Conversion Funnel`;
+      const selected = countryFilter.value;
+      const visibleCountries = COUNTRY_GROUPS[selected];
 
-      function renderDashboard() {
-        grid.innerHTML = "";
-        const key = funnelPeriod.value;
-        title.textContent = `Membership Conversion Funnel`;
-        const selected = countryFilter.value;
-        const visibleCountries = COUNTRY_GROUPS[selected];
+      visibleCountries.forEach(c => renderFunnelBox(grid, key, c));
 
-        visibleCountries.forEach(c => renderFunnelBox(grid, key, c));
+    }
 
-      }
+    function renderFunnelBox(grid, key, country) {
+      const data = jsonData?.[key]?.[country];
 
-      function renderFunnelBox(grid, key, country) {
-        const data = jsonData?.[key]?.[country];
+      const stages = [
+        "Joined Waitlist",
+        "Interview Offered",
+        "Interview Booked",
+        "Interview Completed",
+        "Membership Offered",
+        "Payment Completed",
+        "New Member"
+      ];
 
-        const stages = [
-          "Joined Waitlist",
-          "Offer Interview",
-          "Booked Interview", // ✅ NEW
-          "Interview",
-          "Offer Membership",
-          "Paid",
-          "Member"
-        ];
+      const rows = data
+        ? stages.map(s => Object.values(data.stages).find(x => x.name === s))
+        : stages.map(s => ({ name: s, count: 0, drop: 0 }));
 
-        const rows = data
-          ? stages.map(s => Object.values(data.stages).find(x => x.name === s))
-          : stages.map(s => ({ name: s, count: 0, drop: 0 }));
+      const widths = ["90%", "88%", "73%", "55%", "38%", "23%", "8%"];
+      const shapes = [
+        "inset(0 0 0 0)",
+        "polygon(0% 0%,100% 0%,92% 100%,8% 100%)",
+        "polygon(0% 0%,100% 0%,88% 100%,12% 100%)",
+        "polygon(0% 0%,100% 0%,85% 100%,15% 100%)",
+        "polygon(0% 0%,100% 0%,80% 100%,20% 100%)",
+        "polygon(0% 0%,100% 0%,70% 100%,30% 100%)",
+        "polygon(0% 0%,100% 0%,60% 100%,40% 100%)"
+      ];
 
-        const widths = ["90%", "88%", "73%", "55%", "38%", "23%", "8%"];
-        const shapes = [
-          "inset(0 0 0 0)",
-          "polygon(0% 0%,100% 0%,92% 100%,8% 100%)",
-          "polygon(0% 0%,100% 0%,88% 100%,12% 100%)",
-          "polygon(0% 0%,100% 0%,85% 100%,15% 100%)",
-          "polygon(0% 0%,100% 0%,80% 100%,20% 100%)",
-          "polygon(0% 0%,100% 0%,70% 100%,30% 100%)",
-          "polygon(0% 0%,100% 0%,60% 100%,40% 100%)"
-        ];
+      const colors = [
+        "#4169E1",
+        "#3A7FF0",
+        "#4F8CF5",
+        "#5A8DEE",
+        "#7FB5F3",
+        "#F4C24B",
+        "#DB5A2E"
+      ];
+      const box = document.createElement("div");
+      box.className = "funnel-box";
+      box.innerHTML = `<div class="country-title">${country}</div>`;
 
-        const colors = [
-          "#4169E1",
-          "#3A7FF0",
-          "#4F8CF5",
-          "#5A8DEE",
-          "#7FB5F3",
-          "#F4C24B",
-          "#DB5A2E"
-        ];
-        const box = document.createElement("div");
-        box.className = "funnel-box";
-        box.innerHTML = `<div class="country-title">${country}</div>`;
-
-        rows.forEach((r, i) => {
-          box.innerHTML += `
+      rows.forEach((r, i) => {
+        box.innerHTML += `
       <div class="row">
         <div class="stage">${r.name}</div>
         <div class="bar-wrapper">
@@ -561,132 +663,132 @@
         </div>
         <div class="metrics">${i === 0 ? "" : `drop ${r.drop}`}</div>
       </div>`;
-        });
+      });
 
-        grid.appendChild(box);
+      grid.appendChild(box);
+    }
+
+    /* ================= CHURN ================= */
+
+    function getISOWeekStart(year, week) {
+      const d = new Date(year, 0, 1 + (week - 1) * 7);
+      d.setDate(d.getDate() - d.getDay() + 1);
+      return d;
+    }
+
+    function aggregateChurn(rows, mode) {
+      const map = {};
+
+      // 🔒 KEEP DATA FROM 2025 ONWARDS
+      rows = rows.filter(r => {
+        const year = dayjs(r.label).year();
+        return year >= START_YEAR;
+      });
+
+      rows.forEach(r => {
+        const d = dayjs(r.label); // YYYY-MM-DD
+        let key;
+
+        if (mode === "weekly") {
+          key = `${d.year()}-W${String(d.week()).padStart(2, "0")}`;
+        }
+        else if (mode === "monthly") {
+          key = `${d.year()}-${String(d.month() + 1).padStart(2, "0")}`;
+        }
+        else if (mode === "quarterly") {
+          key = `${d.year()}-Q${Math.ceil((d.month() + 1) / 3)}`;
+        }
+        else if (mode === "half-year") {
+          key = `${d.year()}-H${d.month() < 6 ? 1 : 2}`;
+        }
+        else {
+          key = `${d.year()}`;
+        }
+
+        map[key] ??= { label: key, onboarded: 0, offboarded: 0 };
+        map[key].onboarded += r.onboarded;
+        map[key].offboarded += r.offboarded;
+      });
+
+      return Object.values(map)
+        .filter(r => r.onboarded > 0 || r.offboarded > 0) // 🔑 REQUIRED
+        .sort((a, b) => a.label.localeCompare(b.label));
+    }
+
+    function formatChurnLabel(label, mode) {
+      if (mode === "weekly") {
+        const [y, w] = label.split("-W");
+        const start = dayjs().year(Number(y)).week(Number(w)).startOf("week");
+        const end = start.add(6, "day");
+
+        return `${start.date()}–${end.date()}<br>${shortMonths[start.month()]}, ${y}`;
       }
 
-      /* ================= CHURN ================= */
-
-      function getISOWeekStart(year, week) {
-        const d = new Date(year, 0, 1 + (week - 1) * 7);
-        d.setDate(d.getDate() - d.getDay() + 1);
-        return d;
+      if (mode === "monthly") {
+        const [y, m] = label.split("-");
+        return `${shortMonths[m - 1]}<br>${y}`;
       }
 
-      function aggregateChurn(rows, mode) {
-        const map = {};
+      if (mode === "quarterly") {
+        const [y, q] = label.split("-Q");
+        return `(${shortMonths[(q - 1) * 3]}–${shortMonths[(q - 1) * 3 + 2]})<br>${y}`;
+      }
 
-        // 🔒 KEEP DATA FROM 2025 ONWARDS
-        rows = rows.filter(r => {
-          const year = dayjs(r.label).year();
-          return year >= START_YEAR;
-        });
+      if (mode === "half-year") {
+        const [y, h] = label.split("-H");
+        return h === "1" ? `(Jan–Jun)<br>${y}` : `(Jul–Dec)<br>${y}`;
+      }
+
+      return label;
+    }
+
+    function renderChurn() {
+      churnGrid.innerHTML = "";
+      const mode = churnRange.value;
+
+      const selected = countryFilter.value;
+      const visibleCountries = COUNTRY_GROUPS[selected];
+
+      visibleCountries.forEach(country => {
+
+        const raw = churnData?.[country] || [];
+        if (!raw.length) return;
+
+        const rows = aggregateChurn(raw, mode);
+        if (!rows.length) return;
+        const max = Math.max(...rows.map(r => Math.max(r.onboarded, r.offboarded)), 1);
+
+        const box = document.createElement("div");
+        box.className = "funnel-box";
+        box.innerHTML = `<div class="country-title">${country}</div>`;
+
+        const scroll = document.createElement("div");
+        scroll.className = "churn-scroll";
+
+        const chart = document.createElement("div");
+        chart.className = "churn-chart";
 
         rows.forEach(r => {
-          const d = dayjs(r.label); // YYYY-MM-DD
-          let key;
-
-          if (mode === "weekly") {
-            key = `${d.year()}-W${String(d.week()).padStart(2, "0")}`;
-          }
-          else if (mode === "monthly") {
-            key = `${d.year()}-${String(d.month() + 1).padStart(2, "0")}`;
-          }
-          else if (mode === "quarterly") {
-            key = `${d.year()}-Q${Math.ceil((d.month() + 1) / 3)}`;
-          }
-          else if (mode === "half-year") {
-            key = `${d.year()}-H${d.month() < 6 ? 1 : 2}`;
-          }
-          else {
-            key = `${d.year()}`;
-          }
-
-          map[key] ??= { label: key, onboarded: 0, offboarded: 0 };
-          map[key].onboarded += r.onboarded;
-          map[key].offboarded += r.offboarded;
-        });
-
-        return Object.values(map)
-          .filter(r => r.onboarded > 0 || r.offboarded > 0) // 🔑 REQUIRED
-          .sort((a, b) => a.label.localeCompare(b.label));
-      }
-
-      function formatChurnLabel(label, mode) {
-        if (mode === "weekly") {
-          const [y, w] = label.split("-W");
-          const start = dayjs().year(Number(y)).week(Number(w)).startOf("week");
-          const end = start.add(6, "day");
-
-          return `${start.date()}–${end.date()}<br>${shortMonths[start.month()]}, ${y}`;
-        }
-
-        if (mode === "monthly") {
-          const [y, m] = label.split("-");
-          return `${shortMonths[m - 1]}<br>${y}`;
-        }
-
-        if (mode === "quarterly") {
-          const [y, q] = label.split("-Q");
-          return `(${shortMonths[(q - 1) * 3]}–${shortMonths[(q - 1) * 3 + 2]})<br>${y}`;
-        }
-
-        if (mode === "half-year") {
-          const [y, h] = label.split("-H");
-          return h === "1" ? `(Jan–Jun)<br>${y}` : `(Jul–Dec)<br>${y}`;
-        }
-
-        return label;
-      }
-
-      function renderChurn() {
-        churnGrid.innerHTML = "";
-        const mode = churnRange.value;
-
-        const selected = countryFilter.value;
-        const visibleCountries = COUNTRY_GROUPS[selected];
-
-        visibleCountries.forEach(country => {
-
-          const raw = churnData?.[country] || [];
-          if (!raw.length) return;
-
-          const rows = aggregateChurn(raw, mode);
-          if (!rows.length) return;
-          const max = Math.max(...rows.map(r => Math.max(r.onboarded, r.offboarded)), 1);
-
-          const box = document.createElement("div");
-          box.className = "funnel-box";
-          box.innerHTML = `<div class="country-title">${country}</div>`;
-
-          const scroll = document.createElement("div");
-          scroll.className = "churn-scroll";
-
-          const chart = document.createElement("div");
-          chart.className = "churn-chart";
-
-          rows.forEach(r => {
-            chart.innerHTML += `
+          chart.innerHTML += `
   <div class="churn-group">
     <div class="churn-bars">
       <div class="churn-bars">
 
   <!-- ONBOARDED -->
   ${r.onboarded > 0
-                ? `<div class="churn-bar onboarded"
+              ? `<div class="churn-bar onboarded"
      style="height:${(r.onboarded / max) * 100}%">
   <span class="bar-value">${r.onboarded}</span>
 </div>`
-                : `<div class="zero-bar">0</div>`}
+              : `<div class="zero-bar">0</div>`}
 
   <!-- OFFBOARDED -->
   ${r.offboarded > 0
-                ? `<div class="churn-bar offboarded"
+              ? `<div class="churn-bar offboarded"
      style="height:${(r.offboarded / max) * 100}%">
   <span class="bar-value">${r.offboarded}</span>
 </div>`
-                : `<div class="zero-bar">0</div>`}
+              : `<div class="zero-bar">0</div>`}
 
 </div>
 
@@ -694,69 +796,146 @@
     <div class="churn-label">${formatChurnLabel(r.label, mode)}</div>
   </div>`;
 
-          });
-
-          scroll.appendChild(chart);
-          box.appendChild(scroll);
-          churnGrid.appendChild(box);
         });
-      }
 
-      /* ================= REFRESH ================= */
+        scroll.appendChild(chart);
+        box.appendChild(scroll);
+        churnGrid.appendChild(box);
+      });
+    }
+
+    function renderStageBars() {
+
+      stageBarsGrid.innerHTML = "";
+
+      const key = stagePeriod.value;
+      const selected = countryFilter.value;
+      const visibleCountries = COUNTRY_GROUPS[selected];
+
+      visibleCountries.forEach(country => {
+
+        const data = stageBarsData?.[key]?.[country];
+        if (!data) return;
+
+        const stages = [
+          "Joined Waitlist",
+          "Interview Offered",
+          "Interview Booked",
+          "Interview Completed",
+          "Membership Offered",
+          "Payment Completed",
+          "New Member"
+        ];
+
+        const rows = stages.map(s =>
+          Object.values(data).find(x => x.name === s) || { name: s, count: 0 }
+        );
+        const max = Math.max(...rows.map(r => r.count), 1);
+
+        const box = document.createElement("div");
+        box.className = "funnel-box";
+        box.innerHTML = `<div class="country-title">${country}</div>`;
+
+        const chart = document.createElement("div");
+        chart.className = "stage-chart";
+
+        const pastelColors = [
+          "#2E8B57",  // Joined Waitlist (green)
+          "#E67E22",  // Interview Offered (orange)
+          "#E74C3C",  // Interview Booked (red)
+          "#8E44AD",  // Interview Completed (purple)
+          "#2C6ED5",  // Membership Offered (blue)
+          "#5B50C7",  // Payment Completed (indigo)
+          "#D81B60"   // New Member (magenta)
+        ];
+
+        rows.forEach((r, i) => {
+
+          const barHTML = r.count > 0
+            ? `<div class="stage-bar"
+        style="
+          background:${pastelColors[i]};
+          height:${(r.count / max) * 100}%">
+        <span class="bar-value">${r.count}</span>
+      </div>`
+            : `<div class="zero-bar">0</div>`;
+
+          chart.innerHTML += `
+<div class="stage-group">
+
+  ${barHTML}
+
+  <div class="churn-label">
+    ${r.name.replace(/ (?!.* )/, "<br>")}
+  </div>
+
+</div>
+`;
+
+        });
+
+        box.appendChild(chart);
+        stageBarsGrid.appendChild(box);
+
+      });
+
+    }
+
+    /* ================= REFRESH ================= */
 
 
-      function resetToDefaultStates() {
-        // Funnel defaults
-        funnelRange.value = "monthly";
-        buildFunnelPeriods();          // rebuild periods for monthly
-        funnelPeriod.selectedIndex = 0; // latest month
+    function resetToDefaultStates() {
+      // Funnel defaults
+      funnelRange.value = "monthly";
+      buildFunnelPeriods();          // rebuild periods for monthly
+      funnelPeriod.selectedIndex = 0; // latest month
 
-        // Churn defaults
-        churnRange.value = "monthly";
-      }
+      // Churn defaults
+      churnRange.value = "monthly";
+    }
 
-      refreshBtn.onclick = async () => {
-        refreshBtn.disabled = true;
-        refreshBtn.textContent = "Refreshing…";
+    refreshBtn.onclick = async () => {
+      refreshBtn.disabled = true;
+      refreshBtn.textContent = "Refreshing…";
 
-        try {
-          const res = await fetch("/refresh", { method: "POST" });
-          const data = await res.json();
+      try {
+        const res = await fetch("/refresh", { method: "POST" });
+        const data = await res.json();
 
-          if (!res.ok || !data.ok) {
-            refreshBtn.textContent = "Refresh Failed";
-            setTimeout(() => {
-              refreshBtn.textContent = "Refresh Data";
-              refreshBtn.disabled = false;
-            }, 2000);
-            return;
-          }
-
-          await fetchData();
-          resetToDefaultStates();
-          renderDashboard();
-          renderChurn();
-
-
-          refreshBtn.textContent = "Refresh Completed";
-
-          setTimeout(() => {
-            refreshBtn.textContent = "Refresh Data";
-            refreshBtn.disabled = false;
-          }, 1500);
-
-        } catch {
-          refreshBtn.textContent = "Network Error";
+        if (!res.ok || !data.ok) {
+          refreshBtn.textContent = "Refresh Failed";
           setTimeout(() => {
             refreshBtn.textContent = "Refresh Data";
             refreshBtn.disabled = false;
           }, 2000);
+          return;
         }
-      };
+
+        await fetchData();
+        resetToDefaultStates();
+        renderDashboard();
+        renderChurn();
+        renderStageBars();
+
+        refreshBtn.textContent = "Refresh Completed";
+
+        setTimeout(() => {
+          refreshBtn.textContent = "Refresh Data";
+          refreshBtn.disabled = false;
+        }, 1500);
+
+      } catch {
+        refreshBtn.textContent = "Network Error";
+        setTimeout(() => {
+          refreshBtn.textContent = "Refresh Data";
+          refreshBtn.disabled = false;
+        }, 2000);
+      }
+    };
 
 
-    </script>
+  </script>
 
-  </body>
+</body>
 
 </html>
